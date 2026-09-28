@@ -428,7 +428,7 @@
                     <div class="hospital-classification-item">
                         <button class="btn p-1" data-bs-toggle="modal" data-bs-target="#level66Modal">
                             <img src="https://pg.concordreview.com/wp-content/uploads/2025/01/hospital-pin-red.png" style="width:30px; height:30px;">
-                            <small>Specialized</small>
+                            <small>Central</small>
                         </button>
                     </div>
 
@@ -436,7 +436,7 @@
                      <div class="hospital-classification-item">
                         <button class="btn p-1" data-bs-toggle="modal" data-bs-target="#level55Modal">
                             <img src="https://pg.concordreview.com/wp-content/uploads/2025/01/hospital_pin-blue.png" style="width:30px; height:30px;">
-                            <small>Basic</small>
+                            <small>Provincial</small>
                         </button>
                     </div>
 
@@ -444,7 +444,7 @@
                     <div class="hospital-classification-item">
                         <button class="btn p-1" data-bs-toggle="modal" data-bs-target="#level44Modal">
                             <img src="https://pg.concordreview.com/wp-content/uploads/2025/01/hospital_pin-purple.png" style="width:30px; height:30px;">
-                            <small>Primary</small>
+                            <small>District</small>
                         </button>
                     </div>
 

@@ -293,9 +293,10 @@ class HospitalController extends Controller
          // Execute the query and return JSON response
         $hospitals = $query->get();
         $levelCounts = [
-            'Specialized' => 0,
-            'Basic' => 0,
-            'Primary' => 0,
+            'Central' => 0,
+            'Provincial' => 0,
+            'District' => 0,
+            'Health Centre' => 0,
         ];
 
         foreach ($hospitals as $hospital) {

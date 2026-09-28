@@ -156,6 +156,7 @@ class PoliceController extends Controller
             'National Police (HQ)' => 0,
             'Provincial and Capital Public Security Headquarters' => 0,
             'District Public Security Headquarter' => 0,
+            'Local Police Station' => 0,
         ];
 
         foreach ($polices as $police) {
