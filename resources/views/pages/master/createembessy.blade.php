@@ -21,9 +21,9 @@
 
          <div class="col-md-12">
             <div class="form-group">
-                <label>Province/Municipality</label>
+                <label>Provinsi / Prefektur </label>
                 <select class="form-control" name="province_id" id="province">
-                        <option value="0">-Choosse Province/Municipality-</option>
+                        <option value="0">-Choosse Provinsi / Prefektur -</option>
                     @foreach($provinces as $prov)
                         <option value="{{$prov->id}}">{{$prov->provinces_region}}</option>
                     @endforeach
@@ -33,9 +33,9 @@
 
         <div class="col-md-12">
             <div class="form-group">
-                <label for="city">Commune/Ward/Special Zone</label>
+                <label for="city">Distrik</label>
                 <select name="city" id="city" class="form-control">
-                    <option value="">-Choosse Commune/Ward/Special Zone-</option>
+                    <option value="">-Choosse Distrik-</option>
                 </select>
             </div>
         </div>

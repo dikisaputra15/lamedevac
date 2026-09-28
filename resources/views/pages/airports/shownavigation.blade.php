@@ -1,7 +1,7 @@
 @extends('layouts.master')
 
 @section('title','More Details')
-@section('page-title', 'Vietnam Airports')
+@section('page-title', 'Laos Airports')
 
 @push('styles')
 <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />

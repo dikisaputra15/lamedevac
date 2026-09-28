@@ -184,7 +184,7 @@
                         <strong>Address:</strong>
                         {{ $embassy->location }},
                         {{ $city->city }},
-                        {{ $province->provinces_region }}, Vietnam
+                        {{ $province->provinces_region }}, Laos
                     </p>
                     <p>
                         <strong>Latitude:</strong> {{ $embassy->latitude }}

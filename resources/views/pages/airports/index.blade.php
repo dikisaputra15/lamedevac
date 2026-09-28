@@ -1,7 +1,7 @@
 @extends('layouts.master')
 
 @section('title', 'Airports')
-@section('page-title', 'Vietnam Airports')
+@section('page-title', 'Laos Airports')
 
 @push('styles')
 <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
@@ -1005,7 +1005,7 @@ function addAirportMarkers(data) {
             <strong>Address:</strong>
                 ${airport.address || 'N/A'}
                 ${airport.city_name ? ', ' + airport.city_name : ''}
-                ${airport.province_name ? ', ' + airport.province_name : ''}, Vietnam <br>
+                ${airport.province_name ? ', ' + airport.province_name : ''}, Laos <br>
             <strong>Website:</strong> ${airport.website || 'N/A'} <br>
         `;
 

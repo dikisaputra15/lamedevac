@@ -1,7 +1,7 @@
 @extends('layouts.master')
 
 @section('title','Embassiees')
-@section('page-title', 'Vietnam Embassiees')
+@section('page-title', 'Laos Embassiees')
 
 @push('styles')
 
@@ -826,7 +826,7 @@ function addEmbassyMarkers(data) {
             <strong>Address:</strong>
                 ${embassy.location || 'N/A'}
                 ${embassy.city ? ', ' + embassy.city : ''}
-                ${embassy.provinces_region ? ', ' + embassy.provinces_region : ''}, Vietnam <br>
+                ${embassy.provinces_region ? ', ' + embassy.provinces_region : ''}, Laos <br>
             <strong>Phone:</strong> ${embassy.telephone || 'N/A'}<br>
             <strong>Fax:</strong> ${embassy.fax || 'N/A'}<br>
             <strong>Email:</strong> ${embassy.email || 'N/A'}<br>

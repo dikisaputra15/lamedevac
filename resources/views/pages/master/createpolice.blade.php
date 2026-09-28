@@ -21,9 +21,9 @@
 
          <div class="col-md-12">
             <div class="form-group">
-                <label>Province/Municipality</label>
+                <label>Provinsi / Prefektur </label>
                 <select class="form-control" name="province_id" id="province">
-                        <option value="0">-Choosse Province/Municipality-</option>
+                        <option value="0">-Choosse Provinsi / Prefektur -</option>
                     @foreach($provinces as $prov)
                         <option value="{{$prov->id}}">{{$prov->provinces_region}}</option>
                     @endforeach
@@ -33,9 +33,9 @@
 
          <div class="col-md-12">
             <div class="form-group">
-                <label for="city">Commune/Ward/Special Zone</label>
+                <label for="city">Distrik</label>
                 <select name="city" id="city" class="form-control">
-                    <option value="">-Choose Commune/Ward/Special Zone-</option>
+                    <option value="">-Choose Distrik-</option>
                 </select>
             </div>
         </div>
@@ -95,15 +95,21 @@
                 </div>
 
                 <div class="form-check form-check-inline">
-                    <input class="form-check-input category-radio" type="radio" name="category" value="Provincial/Municipality Police" data-icon="{{ asset('images/Layer2.png') }}">
+                    <input class="form-check-input category-radio" type="radio" name="category" value="Provincial and Capital Public Security Headquarters" data-icon="{{ asset('images/Layer2.png') }}">
                     <img src="{{ asset('images/Layer2.png') }}" style="width:12px; height:12px;">
-                    <label class="form-check-label">Provincial/Municipality Police</label>
+                    <label class="form-check-label">Provincial and Capital Public Security Headquarters</label>
                 </div>
 
                 <div class="form-check form-check-inline">
-                    <input class="form-check-input category-radio" type="radio" name="category" value="Commune/Ward/SPZ" data-icon="{{ asset('images/Layer3.png') }}">
+                    <input class="form-check-input category-radio" type="radio" name="category" value="District Public Security Headquarter" data-icon="{{ asset('images/Layer3.png') }}">
                     <img src="{{ asset('images/Layer3.png') }}" style="width:12px; height:12px;">
-                    <label class="form-check-label">Commune/Ward/SPZ</label>
+                    <label class="form-check-label">District Public Security Headquarter</label>
+                </div>
+
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input category-radio" type="radio" name="category" value="Local Police Station" data-icon="{{ asset('images/Layer4.png') }}">
+                    <img src="{{ asset('images/Layer4.png') }}" style="width:12px; height:12px;">
+                    <label class="form-check-label">Local Police Station</label>
                 </div>
 
             </div>

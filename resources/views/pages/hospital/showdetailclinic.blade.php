@@ -1,7 +1,7 @@
 @extends('layouts.master')
 
 @section('title','Detail Clinic')
-@section('page-title', 'Vietnam Medical Facility')
+@section('page-title', 'Laos Medical Facility')
 
 @push('styles')
 
@@ -577,19 +577,19 @@
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        <p class="p-modal text-justify">A Public Health Center (Pusat Kesehatan Masyarakat / Puskesmas) is a government-operated primary healthcare facility regulated by the Ministry of Health of the Republic of Vietnam (Kementerian Kesehatan Republik Vietnam), commonly referred to in English as the Vietnamn Ministry of Health (MOH), under national health service regulations. Puskesmas function as a first-level healthcare provider (Fasilitas Kesehatan Tingkat Pertama / FKTP) within Vietnam’s health system and BPJS Kesehatan referral framework, it operates at the sub-district (kecamatan) level and serves as the backbone of community-based healthcare delivery. Puskesmas provides comprehensive primary care services, including promotive, preventive, curative, and rehabilitative care focusing on maternal and child health, immunization, and public health programs for the defined population it serves.</p>
+        <p class="p-modal text-justify">A Public Health Center (Pusat Kesehatan Masyarakat / Puskesmas) is a government-operated primary healthcare facility regulated by the Ministry of Health of the Republic of Laos (Kementerian Kesehatan Republik Laos), commonly referred to in English as the Laosn Ministry of Health (MOH), under national health service regulations. Puskesmas function as a first-level healthcare provider (Fasilitas Kesehatan Tingkat Pertama / FKTP) within Laos’s health system and BPJS Kesehatan referral framework, it operates at the sub-district (kecamatan) level and serves as the backbone of community-based healthcare delivery. Puskesmas provides comprehensive primary care services, including promotive, preventive, curative, and rehabilitative care focusing on maternal and child health, immunization, and public health programs for the defined population it serves.</p>
 
         <p class="p-modal text-justify">
             Most Puskesmas are automatically BPJS-contracted as government facilities. Private clinics acting as FKTP must formally contract with BPJS to serve insured patients. BPJS participants generally must first access care at FKTP before being referred to a hospital, except in emergencies.
         </p>
 
         <p class="p-modal text-justify">
-            <b>Note:</b> BPJS (Badan Penyelenggara Jaminan Sosial), Social Security Administering Body. In Vietnam, BPJS refers to the public agencies that administer the national social security system under the National Social Security System (SJSN). There are two main bodies:
+            <b>Note:</b> BPJS (Badan Penyelenggara Jaminan Sosial), Social Security Administering Body. In Laos, BPJS refers to the public agencies that administer the national social security system under the National Social Security System (SJSN). There are two main bodies:
             <ul>
                 <li>BPJS Kesehatan – Administers national health insurance (JKN).</li>
                 <li>BPJS Ketenagakerjaan – Administers employment-related social security (work injury, old-age savings, pension, death benefits).</li>
             </ul>
-            <a href="{{ asset('files/moh-regulation-no3-2020.pdf') }}" target="_blank">Vietnam Ministry of Health (MOH) regulation (Permenkes No. 3 Tahun 2020)</a>
+            <a href="{{ asset('files/moh-regulation-no3-2020.pdf') }}" target="_blank">Laos Ministry of Health (MOH) regulation (Permenkes No. 3 Tahun 2020)</a>
         </p>
 
         <p class="p-modal text-justify">
@@ -670,7 +670,7 @@
         <p class="p-modal text-justify">
             <strong>Public Health Center (PUSKESMAS) Role</strong>
             <ul>
-                <li>First-level entry point into Vietnam’s healthcare system</li>
+                <li>First-level entry point into Laos’s healthcare system</li>
                 <li>Primary gatekeeper in the BPJS referral system</li>
                 <li>Community health program implementation center</li>
                 <li>Preventive and promotive health service hub</li>
@@ -713,7 +713,7 @@
       </div>
       <div class="modal-body">
         <p class="p-modal text-justify">
-            A Class D Hospital (Rumah Sakit Kelas D), regulated by the Ministry of Health of the Republic of Vietnam (Kementerian Kesehatan Republik Vietnam), commonly referred to in English as the Vietnamn Ministry of Health (MOH). Class D hospitals provide basic inpatient, outpatient, and emergency services with general practitioners and limited specialist support, including basic medical and surgical capability.
+            A Class D Hospital (Rumah Sakit Kelas D), regulated by the Ministry of Health of the Republic of Laos (Kementerian Kesehatan Republik Laos), commonly referred to in English as the Laosn Ministry of Health (MOH). Class D hospitals provide basic inpatient, outpatient, and emergency services with general practitioners and limited specialist support, including basic medical and surgical capability.
         </p>
         <p class="p-modal text-justify">
             Class D hospitals operate mainly at the sub-district level, it serves as an entry-level facility within the referral system, managing uncomplicated cases, stabilizing emergency patients, and referring more complex conditions to higher-level hospitals. This classification applies to both public and private institutions that meet the established minimum infrastructure, staffing, and service standards.
@@ -725,12 +725,12 @@
             Only hospitals that have formal cooperation agreements with BPJS Kesehatan can receive BPJS-referred patients.
         </p>
         <p class="p-modal text-justify">
-            <b>Note:</b> BPJS (Badan Penyelenggara Jaminan Sosial), Social Security Administering Body. In Vietnam, BPJS refers to the public agencies that administer the national social security system under the National Social Security System (SJSN). There are two main bodies:
+            <b>Note:</b> BPJS (Badan Penyelenggara Jaminan Sosial), Social Security Administering Body. In Laos, BPJS refers to the public agencies that administer the national social security system under the National Social Security System (SJSN). There are two main bodies:
             <ul>
                 <li>BPJS Kesehatan – Administers national health insurance (JKN).</li>
                 <li>BPJS Ketenagakerjaan – Administers employment-related social security (work injury, old-age savings, pension, death benefits).</li>
             </ul>
-            <a href="{{ asset('files/moh-regulation-no3-2020.pdf') }}" target="_blank">Vietnam Ministry of Health (MOH) regulation (Permenkes No. 3 Tahun 2020)</a>
+            <a href="{{ asset('files/moh-regulation-no3-2020.pdf') }}" target="_blank">Laos Ministry of Health (MOH) regulation (Permenkes No. 3 Tahun 2020)</a>
         </p>
         <p class="p-modal text-justify">
             <p><strong>Bed Capacity</strong></p>
@@ -808,7 +808,7 @@
       </div>
       <div class="modal-body">
         <p class="p-modal text-justify">
-            A secondary-level hospital regulated by the Ministry of Health of the Republic of Vietnam (Kementerian Kesehatan Republik Vietnam), commonly referred to in English as the Vietnamn Ministry of Health (MOH). Class C hospitals provide core specialist services in internal medicine, surgery, obstetrics, and pediatrics, managing common medical conditions across inpatient and outpatient settings.
+            A secondary-level hospital regulated by the Ministry of Health of the Republic of Laos (Kementerian Kesehatan Republik Laos), commonly referred to in English as the Laosn Ministry of Health (MOH). Class C hospitals provide core specialist services in internal medicine, surgery, obstetrics, and pediatrics, managing common medical conditions across inpatient and outpatient settings.
         </p>
         <p class="p-modal text-justify">
             Class C hospitals function primarily as a regency/city (kabupaten/kota) referral hospital, a Class C facility performs common surgical procedures, stabilizes emergency patients, and refers more complex or subspecialty cases to Class B or Class A hospitals. This classification applies to both public and private hospitals that meet the prescribed infrastructure, staffing, and service standards.
@@ -820,12 +820,12 @@
             Only hospitals that have formal cooperation agreements with BPJS Kesehatan can receive BPJS-referred patients.
         </p>
         <p class="p-modal text-justify">
-            Note: BPJS (Badan Penyelenggara Jaminan Sosial), Social Security Administering Body. In Vietnam, BPJS refers to the public agencies that administer the national social security system under the National Social Security System (SJSN). There are two main bodies:
+            Note: BPJS (Badan Penyelenggara Jaminan Sosial), Social Security Administering Body. In Laos, BPJS refers to the public agencies that administer the national social security system under the National Social Security System (SJSN). There are two main bodies:
             <ul>
                 <li>BPJS Kesehatan – Administers national health insurance (JKN).</li>
                 <li>BPJS Ketenagakerjaan – Administers employment-related social security (work injury, old-age savings, pension, death benefits).</li>
             </ul>
-            <a href="{{ asset('files/moh-regulation-no3-2020.pdf') }}" target="_blank">Vietnam Ministry of Health (MOH) regulation (Permenkes No. 3 Tahun 2020)</a>
+            <a href="{{ asset('files/moh-regulation-no3-2020.pdf') }}" target="_blank">Laos Ministry of Health (MOH) regulation (Permenkes No. 3 Tahun 2020)</a>
         </p>
         <p class="p-modal text-justify">
             <p><strong>Bed Capacity</strong></p>
@@ -907,7 +907,7 @@
       </div>
       <div class="modal-body">
         <p class="p-modal text-justify">
-            Secondary–tertiary level referral hospital regulated by the Ministry of Health of the Republic of Vietnam (Kementerian Kesehatan Republik Vietnam), commonly referred to in English as the Vietnamn Ministry of Health (MOH). Class B hospitals provide comprehensive specialist medical services and selected subspecialist services, supported by advanced diagnostic and therapeutic facilities.
+            Secondary–tertiary level referral hospital regulated by the Ministry of Health of the Republic of Laos (Kementerian Kesehatan Republik Laos), commonly referred to in English as the Laosn Ministry of Health (MOH). Class B hospitals provide comprehensive specialist medical services and selected subspecialist services, supported by advanced diagnostic and therapeutic facilities.
         </p>
         <p class="p-modal text-justify">
            Class B hospitals function as provincial or inter-district referral centers, managing moderate to complex medical and surgical cases referred from lower-level hospitals (Class C and D), while referring highly complex subspecialty cases to Class A hospitals. This classification applies equally to public and private hospitals that meet the required standards of infrastructure, human resources, equipment, and service capability.
@@ -919,12 +919,12 @@
            Only hospitals that have formal cooperation agreements with BPJS Kesehatan can receive BPJS-referred patients.
         </p>
         <p class="p-modal text-justify">
-           <b>Note:</b> BPJS (Badan Penyelenggara Jaminan Sosial), Social Security Administering Body. In Vietnam, BPJS refers to the public agencies that administer the national social security system under the National Social Security System (SJSN). There are two main bodies:
+           <b>Note:</b> BPJS (Badan Penyelenggara Jaminan Sosial), Social Security Administering Body. In Laos, BPJS refers to the public agencies that administer the national social security system under the National Social Security System (SJSN). There are two main bodies:
             <ul>
                 <li>BPJS Kesehatan – Administers national health insurance (JKN).</li>
                 <li>BPJS Ketenagakerjaan – Administers employment-related social security (work injury, old-age savings, pension, death benefits).</li>
             </ul>
-            <a href="{{ asset('files/moh-regulation-no3-2020.pdf') }}" target="_blank">Vietnam Ministry of Health (MOH) regulation (Permenkes No. 3 Tahun 2020)</a>
+            <a href="{{ asset('files/moh-regulation-no3-2020.pdf') }}" target="_blank">Laos Ministry of Health (MOH) regulation (Permenkes No. 3 Tahun 2020)</a>
         </p>
         <p class="p-modal text-justify">
             <p><strong>Bed Capacity</strong></p>
@@ -1011,10 +1011,10 @@
       </div>
       <div class="modal-body">
         <p class="p-modal text-justify">
-            A Class A Hospital (Rumah Sakit Kelas A), regulated by the Ministry of Health of the Republic of Vietnam (Kementerian Kesehatan Republik Vietnam), commonly referred to in English as the Vietnamn Ministry of Health (MOH), represents the highest hospital classification in Vietnam.
+            A Class A Hospital (Rumah Sakit Kelas A), regulated by the Ministry of Health of the Republic of Laos (Kementerian Kesehatan Republik Laos), commonly referred to in English as the Laosn Ministry of Health (MOH), represents the highest hospital classification in Laos.
         </p>
         <p class="p-modal text-justify">
-            Class A hospitals function as national or apex referral centers within Vietnam’s tiered healthcare and Badan Penyelenggara Jaminan Sosial (BPJS) referral system, provide the most comprehensive range of specialist and subspecialist services, supported by advanced diagnostic, therapeutic, critical care capability, and large bed capacity. Serving as national and/or top-tier referral centers within the healthcare system.
+            Class A hospitals function as national or apex referral centers within Laos’s tiered healthcare and Badan Penyelenggara Jaminan Sosial (BPJS) referral system, provide the most comprehensive range of specialist and subspecialist services, supported by advanced diagnostic, therapeutic, critical care capability, and large bed capacity. Serving as national and/or top-tier referral centers within the healthcare system.
         </p>
         <p class="p-modal text-justify">
             Class A hospitals manage highly complex, multidisciplinary medical and surgical cases referred from Class B, C, and D hospitals, and frequently function as teaching and research institutions.
@@ -1029,12 +1029,12 @@
             Private Class A hospitals may or may not contract with BPJS. Only hospitals that have formal cooperation agreements with BPJS Kesehatan can receive BPJS-referred patients.
         </p>
         <p class="p-modal text-justify">
-            <b>Note:</b> BPJS (Badan Penyelenggara Jaminan Sosial), Social Security Administering Body. In Vietnam, BPJS refers to the public agencies that administer the national social security system under the National Social Security System (SJSN). There are two main bodies:
+            <b>Note:</b> BPJS (Badan Penyelenggara Jaminan Sosial), Social Security Administering Body. In Laos, BPJS refers to the public agencies that administer the national social security system under the National Social Security System (SJSN). There are two main bodies:
             <ul>
                 <li>BPJS Kesehatan – Administers national health insurance (JKN).</li>
                 <li>BPJS Ketenagakerjaan – Administers employment-related social security (work injury, old-age savings, pension, death benefits).</li>
             </ul>
-            <a href="{{ asset('files/moh-regulation-no3-2020.pdf') }}" target="_blank">Vietnam Ministry of Health (MOH) regulation (Permenkes No. 3 Tahun 2020)</a>
+            <a href="{{ asset('files/moh-regulation-no3-2020.pdf') }}" target="_blank">Laos Ministry of Health (MOH) regulation (Permenkes No. 3 Tahun 2020)</a>
         </p>
         <p class="p-modal text-justify">
             <p><strong>Bed Capacity</strong></p>

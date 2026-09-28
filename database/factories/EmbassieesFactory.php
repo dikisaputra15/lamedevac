@@ -24,11 +24,11 @@ class EmbassieesFactory extends Factory
             'fax' => $this->faker->phoneNumber,
             'email' => $this->faker->unique()->safeEmail,
             'website' => $this->faker->url,
-            'latitude' => $this->faker->latitude(8.18, 23.39), // Vietnam
+            'latitude' => $this->faker->latitude(8.18, 23.39), // Laos
             'longitude' => $this->faker->longitude(102.14, 109.46),
             'image' => $this->faker->randomElement([
                 'https://pg.concordreview.com/wp-content/uploads/2025/01/Autralia-Consulate-Lea.jpg',
-                'https://pg.concordreview.com/wp-content/uploads/2024/08/Embassy-of-the-Vietnam-1-scaled.jpg',
+                'https://pg.concordreview.com/wp-content/uploads/2024/08/Embassy-of-the-Laos-1-scaled.jpg',
                 'https://pg.concordreview.com/wp-content/uploads/2024/08/High-Commission-of-Malaysia-1.jpg',
                 'https://pg.concordreview.com/wp-content/uploads/2024/08/Foto_03.Embassy-of-Japan-Papua-New-Guinea-2024.jpg',
                 'https://pg.concordreview.com/wp-content/uploads/2024/08/Foto_04.Embassy-of-France-Papua-New-Guinea-2024.jpg',

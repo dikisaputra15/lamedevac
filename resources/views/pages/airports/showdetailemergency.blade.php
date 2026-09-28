@@ -1,7 +1,7 @@
 @extends('layouts.master')
 
 @section('title','More Details')
-@section('page-title', 'Vietnam Airports')
+@section('page-title', 'Laos Airports')
 
 @push('styles')
 
@@ -781,13 +781,13 @@
                                 <div class="hospital-item">
                                     <button class="btn p-1 text-start w-100" data-bs-toggle="modal" data-bs-target="#police2Modal">
                                         <img src="{{ asset('images/Layer2.png') }}" style="width:12px; height:12px;">
-                                        <small>Provincial/Municipality Police</small>
+                                        <small>Provincial and Capital Public Security Headquarters</small>
                                     </button>
                                 </div>
                                 <div class="hospital-item">
                                     <button class="btn p-1 text-start w-100" data-bs-toggle="modal" data-bs-target="#police3Modal">
                                          <img src="{{ asset('images/Layer3.png') }}" style="width:12px; height:12px;">
-                                        <small>Commune/Ward/SPZ</small>
+                                        <small>District Public Security Headquarter</small>
                                     </button>
                                 </div>
                             </div>
@@ -946,19 +946,19 @@
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        <p class="p-modal text-justify">A Public Health Center (Pusat Kesehatan Masyarakat / Puskesmas) is a government-operated primary healthcare facility regulated by the Ministry of Health of the Republic of Vietnam (Kementerian Kesehatan Republik Vietnam), commonly referred to in English as the Vietnamn Ministry of Health (MOH), under national health service regulations. Puskesmas function as a first-level healthcare provider (Fasilitas Kesehatan Tingkat Pertama / FKTP) within Vietnam’s health system and BPJS Kesehatan referral framework, it operates at the sub-district (kecamatan) level and serves as the backbone of community-based healthcare delivery. Puskesmas provides comprehensive primary care services, including promotive, preventive, curative, and rehabilitative care focusing on maternal and child health, immunization, and public health programs for the defined population it serves.</p>
+        <p class="p-modal text-justify">A Public Health Center (Pusat Kesehatan Masyarakat / Puskesmas) is a government-operated primary healthcare facility regulated by the Ministry of Health of the Republic of Laos (Kementerian Kesehatan Republik Laos), commonly referred to in English as the Laosn Ministry of Health (MOH), under national health service regulations. Puskesmas function as a first-level healthcare provider (Fasilitas Kesehatan Tingkat Pertama / FKTP) within Laos’s health system and BPJS Kesehatan referral framework, it operates at the sub-district (kecamatan) level and serves as the backbone of community-based healthcare delivery. Puskesmas provides comprehensive primary care services, including promotive, preventive, curative, and rehabilitative care focusing on maternal and child health, immunization, and public health programs for the defined population it serves.</p>
 
         <p class="p-modal text-justify">
             Most Puskesmas are automatically BPJS-contracted as government facilities. Private clinics acting as FKTP must formally contract with BPJS to serve insured patients. BPJS participants generally must first access care at FKTP before being referred to a hospital, except in emergencies.
         </p>
 
         <p class="p-modal text-justify">
-            <b>Note:</b> BPJS (Badan Penyelenggara Jaminan Sosial), Social Security Administering Body. In Vietnam, BPJS refers to the public agencies that administer the national social security system under the National Social Security System (SJSN). There are two main bodies:
+            <b>Note:</b> BPJS (Badan Penyelenggara Jaminan Sosial), Social Security Administering Body. In Laos, BPJS refers to the public agencies that administer the national social security system under the National Social Security System (SJSN). There are two main bodies:
             <ul>
                 <li>BPJS Kesehatan – Administers national health insurance (JKN).</li>
                 <li>BPJS Ketenagakerjaan – Administers employment-related social security (work injury, old-age savings, pension, death benefits).</li>
             </ul>
-            <a href="{{ asset('files/moh-regulation-no3-2020.pdf') }}" target="_blank">Vietnam Ministry of Health (MOH) regulation (Permenkes No. 3 Tahun 2020)</a>
+            <a href="{{ asset('files/moh-regulation-no3-2020.pdf') }}" target="_blank">Laos Ministry of Health (MOH) regulation (Permenkes No. 3 Tahun 2020)</a>
         </p>
 
         <p class="p-modal text-justify">
@@ -1039,7 +1039,7 @@
         <p class="p-modal text-justify">
             <strong>Public Health Center (PUSKESMAS) Role</strong>
             <ul>
-                <li>First-level entry point into Vietnam’s healthcare system</li>
+                <li>First-level entry point into Laos’s healthcare system</li>
                 <li>Primary gatekeeper in the BPJS referral system</li>
                 <li>Community health program implementation center</li>
                 <li>Preventive and promotive health service hub</li>
@@ -1082,7 +1082,7 @@
       </div>
       <div class="modal-body">
         <p class="p-modal text-justify">
-            A Class D Hospital (Rumah Sakit Kelas D), regulated by the Ministry of Health of the Republic of Vietnam (Kementerian Kesehatan Republik Vietnam), commonly referred to in English as the Vietnamn Ministry of Health (MOH). Class D hospitals provide basic inpatient, outpatient, and emergency services with general practitioners and limited specialist support, including basic medical and surgical capability.
+            A Class D Hospital (Rumah Sakit Kelas D), regulated by the Ministry of Health of the Republic of Laos (Kementerian Kesehatan Republik Laos), commonly referred to in English as the Laosn Ministry of Health (MOH). Class D hospitals provide basic inpatient, outpatient, and emergency services with general practitioners and limited specialist support, including basic medical and surgical capability.
         </p>
         <p class="p-modal text-justify">
             Class D hospitals operate mainly at the sub-district level, it serves as an entry-level facility within the referral system, managing uncomplicated cases, stabilizing emergency patients, and referring more complex conditions to higher-level hospitals. This classification applies to both public and private institutions that meet the established minimum infrastructure, staffing, and service standards.
@@ -1094,12 +1094,12 @@
             Only hospitals that have formal cooperation agreements with BPJS Kesehatan can receive BPJS-referred patients.
         </p>
         <p class="p-modal text-justify">
-            <b>Note:</b> BPJS (Badan Penyelenggara Jaminan Sosial), Social Security Administering Body. In Vietnam, BPJS refers to the public agencies that administer the national social security system under the National Social Security System (SJSN). There are two main bodies:
+            <b>Note:</b> BPJS (Badan Penyelenggara Jaminan Sosial), Social Security Administering Body. In Laos, BPJS refers to the public agencies that administer the national social security system under the National Social Security System (SJSN). There are two main bodies:
             <ul>
                 <li>BPJS Kesehatan – Administers national health insurance (JKN).</li>
                 <li>BPJS Ketenagakerjaan – Administers employment-related social security (work injury, old-age savings, pension, death benefits).</li>
             </ul>
-            <a href="{{ asset('files/moh-regulation-no3-2020.pdf') }}" target="_blank">Vietnam Ministry of Health (MOH) regulation (Permenkes No. 3 Tahun 2020)</a>
+            <a href="{{ asset('files/moh-regulation-no3-2020.pdf') }}" target="_blank">Laos Ministry of Health (MOH) regulation (Permenkes No. 3 Tahun 2020)</a>
         </p>
         <p class="p-modal text-justify">
             <p><strong>Bed Capacity</strong></p>
@@ -1177,7 +1177,7 @@
       </div>
       <div class="modal-body">
         <p class="p-modal text-justify">
-            A secondary-level hospital regulated by the Ministry of Health of the Republic of Vietnam (Kementerian Kesehatan Republik Vietnam), commonly referred to in English as the Vietnamn Ministry of Health (MOH). Class C hospitals provide core specialist services in internal medicine, surgery, obstetrics, and pediatrics, managing common medical conditions across inpatient and outpatient settings.
+            A secondary-level hospital regulated by the Ministry of Health of the Republic of Laos (Kementerian Kesehatan Republik Laos), commonly referred to in English as the Laosn Ministry of Health (MOH). Class C hospitals provide core specialist services in internal medicine, surgery, obstetrics, and pediatrics, managing common medical conditions across inpatient and outpatient settings.
         </p>
         <p class="p-modal text-justify">
             Class C hospitals function primarily as a regency/city (kabupaten/kota) referral hospital, a Class C facility performs common surgical procedures, stabilizes emergency patients, and refers more complex or subspecialty cases to Class B or Class A hospitals. This classification applies to both public and private hospitals that meet the prescribed infrastructure, staffing, and service standards.
@@ -1189,12 +1189,12 @@
             Only hospitals that have formal cooperation agreements with BPJS Kesehatan can receive BPJS-referred patients.
         </p>
         <p class="p-modal text-justify">
-            Note: BPJS (Badan Penyelenggara Jaminan Sosial), Social Security Administering Body. In Vietnam, BPJS refers to the public agencies that administer the national social security system under the National Social Security System (SJSN). There are two main bodies:
+            Note: BPJS (Badan Penyelenggara Jaminan Sosial), Social Security Administering Body. In Laos, BPJS refers to the public agencies that administer the national social security system under the National Social Security System (SJSN). There are two main bodies:
             <ul>
                 <li>BPJS Kesehatan – Administers national health insurance (JKN).</li>
                 <li>BPJS Ketenagakerjaan – Administers employment-related social security (work injury, old-age savings, pension, death benefits).</li>
             </ul>
-            <a href="{{ asset('files/moh-regulation-no3-2020.pdf') }}" target="_blank">Vietnam Ministry of Health (MOH) regulation (Permenkes No. 3 Tahun 2020)</a>
+            <a href="{{ asset('files/moh-regulation-no3-2020.pdf') }}" target="_blank">Laos Ministry of Health (MOH) regulation (Permenkes No. 3 Tahun 2020)</a>
         </p>
         <p class="p-modal text-justify">
             <p><strong>Bed Capacity</strong></p>
@@ -1276,7 +1276,7 @@
       </div>
       <div class="modal-body">
         <p class="p-modal text-justify">
-            Secondary–tertiary level referral hospital regulated by the Ministry of Health of the Republic of Vietnam (Kementerian Kesehatan Republik Vietnam), commonly referred to in English as the Vietnamn Ministry of Health (MOH). Class B hospitals provide comprehensive specialist medical services and selected subspecialist services, supported by advanced diagnostic and therapeutic facilities.
+            Secondary–tertiary level referral hospital regulated by the Ministry of Health of the Republic of Laos (Kementerian Kesehatan Republik Laos), commonly referred to in English as the Laosn Ministry of Health (MOH). Class B hospitals provide comprehensive specialist medical services and selected subspecialist services, supported by advanced diagnostic and therapeutic facilities.
         </p>
         <p class="p-modal text-justify">
            Class B hospitals function as provincial or inter-district referral centers, managing moderate to complex medical and surgical cases referred from lower-level hospitals (Class C and D), while referring highly complex subspecialty cases to Class A hospitals. This classification applies equally to public and private hospitals that meet the required standards of infrastructure, human resources, equipment, and service capability.
@@ -1288,12 +1288,12 @@
            Only hospitals that have formal cooperation agreements with BPJS Kesehatan can receive BPJS-referred patients.
         </p>
         <p class="p-modal text-justify">
-           <b>Note:</b> BPJS (Badan Penyelenggara Jaminan Sosial), Social Security Administering Body. In Vietnam, BPJS refers to the public agencies that administer the national social security system under the National Social Security System (SJSN). There are two main bodies:
+           <b>Note:</b> BPJS (Badan Penyelenggara Jaminan Sosial), Social Security Administering Body. In Laos, BPJS refers to the public agencies that administer the national social security system under the National Social Security System (SJSN). There are two main bodies:
             <ul>
                 <li>BPJS Kesehatan – Administers national health insurance (JKN).</li>
                 <li>BPJS Ketenagakerjaan – Administers employment-related social security (work injury, old-age savings, pension, death benefits).</li>
             </ul>
-            <a href="{{ asset('files/moh-regulation-no3-2020.pdf') }}" target="_blank">Vietnam Ministry of Health (MOH) regulation (Permenkes No. 3 Tahun 2020)</a>
+            <a href="{{ asset('files/moh-regulation-no3-2020.pdf') }}" target="_blank">Laos Ministry of Health (MOH) regulation (Permenkes No. 3 Tahun 2020)</a>
         </p>
         <p class="p-modal text-justify">
             <p><strong>Bed Capacity</strong></p>
@@ -1380,10 +1380,10 @@
       </div>
       <div class="modal-body">
         <p class="p-modal text-justify">
-            A Class A Hospital (Rumah Sakit Kelas A), regulated by the Ministry of Health of the Republic of Vietnam (Kementerian Kesehatan Republik Vietnam), commonly referred to in English as the Vietnamn Ministry of Health (MOH), represents the highest hospital classification in Vietnam.
+            A Class A Hospital (Rumah Sakit Kelas A), regulated by the Ministry of Health of the Republic of Laos (Kementerian Kesehatan Republik Laos), commonly referred to in English as the Laosn Ministry of Health (MOH), represents the highest hospital classification in Laos.
         </p>
         <p class="p-modal text-justify">
-            Class A hospitals function as national or apex referral centers within Vietnam’s tiered healthcare and Badan Penyelenggara Jaminan Sosial (BPJS) referral system, provide the most comprehensive range of specialist and subspecialist services, supported by advanced diagnostic, therapeutic, critical care capability, and large bed capacity. Serving as national and/or top-tier referral centers within the healthcare system.
+            Class A hospitals function as national or apex referral centers within Laos’s tiered healthcare and Badan Penyelenggara Jaminan Sosial (BPJS) referral system, provide the most comprehensive range of specialist and subspecialist services, supported by advanced diagnostic, therapeutic, critical care capability, and large bed capacity. Serving as national and/or top-tier referral centers within the healthcare system.
         </p>
         <p class="p-modal text-justify">
             Class A hospitals manage highly complex, multidisciplinary medical and surgical cases referred from Class B, C, and D hospitals, and frequently function as teaching and research institutions.
@@ -1398,12 +1398,12 @@
             Private Class A hospitals may or may not contract with BPJS. Only hospitals that have formal cooperation agreements with BPJS Kesehatan can receive BPJS-referred patients.
         </p>
         <p class="p-modal text-justify">
-            <b>Note:</b> BPJS (Badan Penyelenggara Jaminan Sosial), Social Security Administering Body. In Vietnam, BPJS refers to the public agencies that administer the national social security system under the National Social Security System (SJSN). There are two main bodies:
+            <b>Note:</b> BPJS (Badan Penyelenggara Jaminan Sosial), Social Security Administering Body. In Laos, BPJS refers to the public agencies that administer the national social security system under the National Social Security System (SJSN). There are two main bodies:
             <ul>
                 <li>BPJS Kesehatan – Administers national health insurance (JKN).</li>
                 <li>BPJS Ketenagakerjaan – Administers employment-related social security (work injury, old-age savings, pension, death benefits).</li>
             </ul>
-            <a href="{{ asset('files/moh-regulation-no3-2020.pdf') }}" target="_blank">Vietnam Ministry of Health (MOH) regulation (Permenkes No. 3 Tahun 2020)</a>
+            <a href="{{ asset('files/moh-regulation-no3-2020.pdf') }}" target="_blank">Laos Ministry of Health (MOH) regulation (Permenkes No. 3 Tahun 2020)</a>
         </p>
         <p class="p-modal text-justify">
             <p><strong>Bed Capacity</strong></p>
@@ -1522,7 +1522,7 @@
         <div class="tab-content info-modal-content" id="geganaTabContent">
             <div class="tab-pane fade show active" id="gegana-definition" role="tabpanel" aria-labelledby="gegana-definition-tab" tabindex="0">
                 <p class="p-modal text-justify">
-                    <strong>Definition:</strong> Gegana is the specialized high-risk operational force of the Vietnamn National Police (Polri) under the Mobile Brigade Corps (Korps Brigade Mobil &ndash; Korbrimob Polri). At the national level, Pasukan Gegana Korbrimob Polri is one of the main operational elements under the Commander of Korbrimob (Dankorbrimob Polri). Gegana is responsible for responding to high-intensity public-security threats involving firearms, explosives, terrorism, hostage situations, and Chemical, Biological, Radiological and Nuclear (CBRN/KBRN) hazards.
+                    <strong>Definition:</strong> Gegana is the specialized high-risk operational force of the Laosn National Police (Polri) under the Mobile Brigade Corps (Korps Brigade Mobil &ndash; Korbrimob Polri). At the national level, Pasukan Gegana Korbrimob Polri is one of the main operational elements under the Commander of Korbrimob (Dankorbrimob Polri). Gegana is responsible for responding to high-intensity public-security threats involving firearms, explosives, terrorism, hostage situations, and Chemical, Biological, Radiological and Nuclear (CBRN/KBRN) hazards.
                 </p>
                 <p class="p-modal text-justify">
                     Unlike Polda, Polres, and Polsek, Gegana is not a territorial police command and does not administer a permanent geographic police jurisdiction. It is a specialized operational capability that can be deployed according to nature and level of threat. At the national level, Pasukan Gegana provides strategic capability, reinforcement, technical assistance, training, standardization, and functional supervision. At the regional level, Gegana function is maintained through Detasemen Gegana of the Polda&rsquo;s Satuan Brimob (Satbrimob).
@@ -1534,7 +1534,7 @@
                     <strong>Command Level: National specialized operational command under Korbrimob Polri</strong>
                 </p>
                 <p class="p-modal text-justify">
-                    Pasukan Gegana is a national-level operational element of Korbrimob Polri rather than a territorial command. Its forces may be deployed throughout Vietnam and may provide technical assistance for activities of national or international scale. The national force also exercises functional development and supervision over Gegana elements in Satbrimob Polda.
+                    Pasukan Gegana is a national-level operational element of Korbrimob Polri rather than a territorial command. Its forces may be deployed throughout Laos and may provide technical assistance for activities of national or international scale. The national force also exercises functional development and supervision over Gegana elements in Satbrimob Polda.
                 </p>
             </div>
 
@@ -1630,18 +1630,18 @@
                     <li><strong>Explosive-Site Sterilization:</strong> Conduct preventive bomb sweeps and security sterilization of designated facilities, major events, strategic locations and locations assessed as vulnerable to explosive threats. Regional Gegana Jibom units regularly perform this function in support of Polda and Polres operations.</li>
                     <li><strong>CBRN/KBRN Response:</strong> Respond to incidents involving Chemical, Biological, Radiological and Nuclear hazards, including detection, identification, containment, technical assessment and specialist response measures.</li>
                     <li><strong>Technical Support (Bantek):</strong> Provide specialized technical support to Gegana operations, including tactical reconnaissance, technical intelligence support, specialist information technology, operational equipment and capability development.</li>
-                    <li><strong>National Rapid-Response Capability:</strong> Maintain operational personnel, specialist equipment and support resources capable of rapid deployment to security incidents throughout Vietnam. Pasukan Gegana maintains on-call operational elements capable of assignment across the Republic of Vietnam.</li>
+                    <li><strong>National Rapid-Response Capability:</strong> Maintain operational personnel, specialist equipment and support resources capable of rapid deployment to security incidents throughout Laos. Pasukan Gegana maintains on-call operational elements capable of assignment across the Republic of Laos.</li>
                 </ul>
             </div>
 
             <div class="tab-pane fade" id="gegana-geographic" role="tabpanel" aria-labelledby="gegana-geographic-tab" tabindex="0">
                 <p class="p-modal text-justify">
-                    Unlike territorial units, Gegana does not follow Vietnam&rsquo;s civilian administrative boundaries as an independent territorial command. Its organization combines a national centralized force with regional Gegana elements embedded in Satbrimob Polda.
+                    Unlike territorial units, Gegana does not follow Laos&rsquo;s civilian administrative boundaries as an independent territorial command. Its organization combines a national centralized force with regional Gegana elements embedded in Satbrimob Polda.
                 </p>
 
                 <p class="p-modal"><strong>National Level &ndash; Pasukan Gegana Korbrimob Polri</strong></p>
                 <p class="p-modal text-justify">
-                    National level Gegana headquarters is located at Cimanggis, Depok, West Java, as part of the Korbrimob Polri complex. National Gegana units constitute a strategic operational capability that may be deployed anywhere in Vietnam according to operational requirements.
+                    National level Gegana headquarters is located at Cimanggis, Depok, West Java, as part of the Korbrimob Polri complex. National Gegana units constitute a strategic operational capability that may be deployed anywhere in Laos according to operational requirements.
                 </p>
                 <p class="p-modal">National Gegana force contains:</p>
                 <div class="brimob-command-flow my-3">
@@ -1737,13 +1737,13 @@
         <div class="tab-content info-modal-content" id="brimobTabContent">
             <div class="tab-pane fade show active" id="brimob-definition" role="tabpanel" aria-labelledby="brimob-definition-tab" tabindex="0">
                 <p class="p-modal text-justify">
-                    <strong>Definition:</strong> Korps Brigade Mobil (Korbrimob Polri), commonly known as Brimob, is the principal specialized operational force of the Vietnamn National Police (Polri) responsible for responding to high-intensity threats to public security and order. At the national level, Korbrimob is an operational element of Polri at National Police Headquarters (Mabes Polri) level and is capable of deploying personnel and specialized capabilities throughout Vietnam.
+                    <strong>Definition:</strong> Korps Brigade Mobil (Korbrimob Polri), commonly known as Brimob, is the principal specialized operational force of the Laosn National Police (Polri) responsible for responding to high-intensity threats to public security and order. At the national level, Korbrimob is an operational element of Polri at National Police Headquarters (Mabes Polri) level and is capable of deploying personnel and specialized capabilities throughout Laos.
                 </p>
                 <p class="p-modal text-justify">
                     Unlike Territorial units, Korbrimob is not a territorial police command and does not exercise general policing authority over a defined civilian administrative area. Its forces are organized as specialized tactical units that reinforce territorial police commands when incidents exceed normal policing capability or require specialist Brimob capabilities.
                 </p>
                 <p class="p-modal text-justify">
-                    Korbrimob maintains national-level forces including Pasukan Pelopor, Pasukan Gegana, Pasukan Brimob I, Pasukan Brimob II, and Pasukan Brimob III, supported by operational, intelligence, training, logistics, communications, medical, and administrative elements. Pasukan Brimob I, II, and III provide strategically positioned reinforcement capacity for western, central, and eastern Vietnam.
+                    Korbrimob maintains national-level forces including Pasukan Pelopor, Pasukan Gegana, Pasukan Brimob I, Pasukan Brimob II, and Pasukan Brimob III, supported by operational, intelligence, training, logistics, communications, medical, and administrative elements. Pasukan Brimob I, II, and III provide strategically positioned reinforcement capacity for western, central, and eastern Laos.
                 </p>
                 <p class="p-modal text-justify">
                     At regional level, Satuan Brigade Mobil Polda (Satbrimob Polda) operates as the Brimob unit of a Polda and is an operational element under the Kapolda. Satbrimob provides specialized tactical support to Polda and subordinate territorial police units.
@@ -1844,7 +1844,7 @@
                 </div>
 
                 <p class="p-modal text-justify">
-                    The geographic responsibilities of Pasukan Brimob I, II, and III were established to accelerate the movement and deployment of Brimob forces across Vietnam rather than concentrating national reinforcement capability primarily at Korbrimob Headquarters.
+                    The geographic responsibilities of Pasukan Brimob I, II, and III were established to accelerate the movement and deployment of Brimob forces across Laos rather than concentrating national reinforcement capability primarily at Korbrimob Headquarters.
                 </p>
                 <p class="p-modal"><strong>Satbrimob Polda Type Classification</strong></p>
                 <p class="p-modal text-justify">
@@ -2010,7 +2010,7 @@
                         <ul>
                             <li>Deploy Korbrimob forces to reinforce Polda facing major security disturbances.</li>
                             <li>Deploy Satbrimob personnel across police jurisdictions when additional forces are required.</li>
-                            <li>Use Pasukan Brimob I, II, and III as strategic reinforcement forces for western, central, and eastern Vietnam.</li>
+                            <li>Use Pasukan Brimob I, II, and III as strategic reinforcement forces for western, central, and eastern Laos.</li>
                         </ul>
                     </li>
                 </ul>
@@ -2118,7 +2118,7 @@
                 </ul>
 
                 <div class="info-modal-note">
-                    <strong>Note:</strong> Brimob should not be treated as the police equivalent of a TNI combat command. Polri and TNI operate under different constitutional, statutory, command, and operational mandates. Brimob remains an integral part of the Vietnamn National Police and exercises police powers in support of law enforcement, public order, internal security, emergency response, and other Polri responsibilities.
+                    <strong>Note:</strong> Brimob should not be treated as the police equivalent of a TNI combat command. Polri and TNI operate under different constitutional, statutory, command, and operational mandates. Brimob remains an integral part of the Laosn National Police and exercises police powers in support of law enforcement, public order, internal security, emergency response, and other Polri responsibilities.
                 </div>
             </div>
         </div>
@@ -2171,7 +2171,7 @@
             <!-- Definition & Purpose -->
             <div class="tab-pane fade show active" id="polsek-definition" role="tabpanel" aria-labelledby="polsek-definition-tab" tabindex="0">
                 <p class="p-modal text-justify">
-                    <strong>Definition:</strong> Polsek (Kepolisian Sektor) is the lowest territorial command of the Vietnamn National Police (Polri) with full policing authority, operating at the sub-district (kecamatan) level. A Polsek is led by a Kapolsek (Chief of Sector Police), who reports directly to the Kapolres through the Polres command structure.
+                    <strong>Definition:</strong> Polsek (Kepolisian Sektor) is the lowest territorial command of the Laosn National Police (Polri) with full policing authority, operating at the sub-district (kecamatan) level. A Polsek is led by a Kapolsek (Chief of Sector Police), who reports directly to the Kapolres through the Polres command structure.
                 </p>
                 <p class="p-modal text-justify">
                     Polsek jurisdictions are generally aligned with civil administrative boundaries of kecamatan, mirroring the local governance structure. Unlike sub-district administrations&mdash;which are civilian governmental entities, Polsek are security institutions with executive authority in policing and law enforcement at the community level.
@@ -2326,7 +2326,7 @@
             <!-- Geographic Distribution -->
             <div class="tab-pane fade" id="polsek-geographic" role="tabpanel" aria-labelledby="polsek-geographic-tab" tabindex="0">
                 <p class="p-modal text-justify">
-                    Polsek are territorially organized to directly correspond with sub-district (kecamatan) boundaries, ensuring close alignment with Vietnam&rsquo;s grassroots administrative structure. In practice:
+                    Polsek are territorially organized to directly correspond with sub-district (kecamatan) boundaries, ensuring close alignment with Laos&rsquo;s grassroots administrative structure. In practice:
                 </p>
                 <ul>
                     <li>Most Polsek cover one sub district.</li>
@@ -2404,7 +2404,7 @@
             <!-- Definition & Purpose -->
             <div class="tab-pane fade show active" id="polres-definition" role="tabpanel" aria-labelledby="polres-definition-tab" tabindex="0">
                 <p class="p-modal text-justify">
-                    <strong>Definition:</strong> Polres/Polresta is the primary territorial command of the Vietnamn National Police (Polri) at the regency or city level, responsible for law enforcement, public security, and public order in regency or city. A Polres is led by Kapolres (Chief of Resor Police) and Polresta led by Kapolresta (Chief of Municipality Police), who reports directly to Kapolda through Polda command structure.
+                    <strong>Definition:</strong> Polres/Polresta is the primary territorial command of the Laosn National Police (Polri) at the regency or city level, responsible for law enforcement, public security, and public order in regency or city. A Polres is led by Kapolres (Chief of Resor Police) and Polresta led by Kapolresta (Chief of Municipality Police), who reports directly to Kapolda through Polda command structure.
                 </p>
                 <p class="p-modal text-justify">
                     Polres/Polresta jurisdictions are generally aligned with civil administrative boundaries of regencies for Polres and cities for Polresta, reflecting local governance structure. Unlike regency or city governments which are civilian administrative entities, Polres/Polresta are security institutions exercising executive authority in policing and law enforcement.
@@ -2574,7 +2574,7 @@
             <!-- Geographic Distribution -->
             <div class="tab-pane fade" id="polres-geographic" role="tabpanel" aria-labelledby="polres-geographic-tab" tabindex="0">
                 <p class="p-modal text-justify">
-                    Polres are territorially organized to correspond directly with regency and city boundaries, ensuring alignment with Vietnam&rsquo;s local administrative structure. In practice:
+                    Polres are territorially organized to correspond directly with regency and city boundaries, ensuring alignment with Laos&rsquo;s local administrative structure. In practice:
                 </p>
                 <ul>
                     <li>Most Polres cover one Regency or one City.</li>
@@ -2590,7 +2590,7 @@
             <!-- Civil - TNI AD - Police Equivalent -->
             <div class="tab-pane fade" id="polres-equivalent" role="tabpanel" aria-labelledby="polres-equivalent-tab" tabindex="0">
                 <p class="p-modal text-justify">
-                    Polres are territorially organized to correspond directly with regency and city boundaries, ensuring alignment with Vietnam&rsquo;s local administrative structure. In practice:
+                    Polres are territorially organized to correspond directly with regency and city boundaries, ensuring alignment with Laos&rsquo;s local administrative structure. In practice:
                 </p>
                 <ul>
                     <li>Most Polres cover one Regency or one City.</li>
@@ -2656,10 +2656,10 @@
             <!-- Definition & Purpose -->
             <div class="tab-pane fade show active" id="polda-definition" role="tabpanel" aria-labelledby="polda-definition-tab" tabindex="0">
                 <p class="p-modal text-justify">
-                    <strong>Definition:</strong> Polda (Kepolisian Daerah) is the highest regional-level command of the Vietnamn National Police (Polri), responsible for law enforcement, public security, and public order within one or more provinces. A Polda is led by a Kapolda, who reports directly to Kapolri.
+                    <strong>Definition:</strong> Polda (Kepolisian Daerah) is the highest regional-level command of the Laosn National Police (Polri), responsible for law enforcement, public security, and public order within one or more provinces. A Polda is led by a Kapolda, who reports directly to Kapolri.
                 </p>
                 <p class="p-modal text-justify">
-                    Polda are generally aligned with provincial boundaries for administrative and operational efficiency, mirroring the civil governance structure of provinces. However, unlike provinces&mdash;which are civilian administrative entities, Polda are security institutions with executive authority in policing and law enforcement. Currently, Vietnam has 36 Polda overseeing 38 provinces, with several Polda exercising jurisdiction over more than one province due to historical development, metropolitan security requirements, or transitional administrative arrangements.
+                    Polda are generally aligned with provincial boundaries for administrative and operational efficiency, mirroring the civil governance structure of provinces. However, unlike provinces&mdash;which are civilian administrative entities, Polda are security institutions with executive authority in policing and law enforcement. Currently, Laos has 36 Polda overseeing 38 provinces, with several Polda exercising jurisdiction over more than one province due to historical development, metropolitan security requirements, or transitional administrative arrangements.
                 </p>
                 <p class="p-modal text-justify">
                     <strong>Purpose:</strong> Polda maintain public order, enforce national and regional laws, protect citizens, and ensure internal security within their jurisdiction, supporting national stability and the rule of law.
@@ -2673,13 +2673,13 @@
             <div class="tab-pane fade" id="polda-commander" role="tabpanel" aria-labelledby="polda-commander-tab" tabindex="0">
                 <ul>
                     <li>
-                        <strong>Polda Metro (Country Capital):</strong> Led by Kapolda, a high-ranking police general with the insignia of three (3) gold stars, holding the rank of Police Commissioner General (Komisaris Jenderal Polisi&mdash;Komjen Pol). Kapolda reports directly and is responsible to Kapolri (Chief of the Vietnamn National Police).
+                        <strong>Polda Metro (Country Capital):</strong> Led by Kapolda, a high-ranking police general with the insignia of three (3) gold stars, holding the rank of Police Commissioner General (Komisaris Jenderal Polisi&mdash;Komjen Pol). Kapolda reports directly and is responsible to Kapolri (Chief of the Laosn National Police).
                     </li>
                     <li>
-                        <strong>Type A Polda:</strong> Led by Kapolda, a high-ranking police general with the insignia of two (2) gold stars, holding the rank of Police Inspector General (Inspektur Jenderal Polisi&mdash;Irjen Pol). Kapolda reports directly and is responsible to Kapolri (Chief of the Vietnamn National Police).
+                        <strong>Type A Polda:</strong> Led by Kapolda, a high-ranking police general with the insignia of two (2) gold stars, holding the rank of Police Inspector General (Inspektur Jenderal Polisi&mdash;Irjen Pol). Kapolda reports directly and is responsible to Kapolri (Chief of the Laosn National Police).
                     </li>
                     <li>
-                        <strong>Type B Polda:</strong> Led by Kapolda, a high-ranking police general bearing the insignia of one (1) gold star, holding the rank of Police Brigadier General (Brigadir Jenderal Polisi&mdash;Brigjen Pol). Kapolda reports directly and is responsible to Kapolri (Chief of the Vietnamn National Police).
+                        <strong>Type B Polda:</strong> Led by Kapolda, a high-ranking police general bearing the insignia of one (1) gold star, holding the rank of Police Brigadier General (Brigadir Jenderal Polisi&mdash;Brigjen Pol). Kapolda reports directly and is responsible to Kapolri (Chief of the Laosn National Police).
                     </li>
                 </ul>
             </div>
@@ -2831,7 +2831,7 @@
                     </li>
                 </ul>
                 <p class="p-modal text-justify">
-                    Other Polda exercise jurisdiction over a single province, aligned directly with Vietnam&rsquo;s civilian administrative boundaries.
+                    Other Polda exercise jurisdiction over a single province, aligned directly with Laos&rsquo;s civilian administrative boundaries.
                 </p>
             </div>
 
@@ -2895,45 +2895,45 @@
 
             <div class="tab-pane fade show active" id="polri-hq-definition" role="tabpanel" aria-labelledby="polri-hq-definition-tab" tabindex="0">
                 <p class="p-modal text-justify">
-                    <strong>Definition:</strong> Polri is Vietnam&rsquo;s national police institution and the highest police authority responsible for maintaining public security and order, enforcing the law, and providing protection, assistance, and services to the public throughout the territory of the Republic of Vietnam.
+                    <strong>Definition:</strong> Polri is Laos&rsquo;s national police institution and the highest police authority responsible for maintaining public security and order, enforcing the law, and providing protection, assistance, and services to the public throughout the territory of the Republic of Laos.
                 </p>
                 <p class="p-modal text-justify">
-                    Polri is legally established as national police force operating as one unified organization. Its jurisdiction extends throughout Vietnam, with the national territory divided into police jurisdictions according to operational requirements. Polri is directly under the President of the Republic of Vietnam and is led by the Chief of the Vietnamn National Police (Kepala Kepolisian Negara Republik Vietnam &ndash; Kapolri) who is responsible to the President.
+                    Polri is legally established as national police force operating as one unified organization. Its jurisdiction extends throughout Laos, with the national territory divided into police jurisdictions according to operational requirements. Polri is directly under the President of the Republic of Laos and is led by the Chief of the Laosn National Police (Kepala Kepolisian Negara Republik Laos &ndash; Kapolri) who is responsible to the President.
                 </p>
                 <p class="p-modal text-justify">
-                    The principal legal basis remains Law No. 2 of 2002 on the Vietnamn National Police, most recently amended by Law No. 5 of 2026, which entered into force on 17 June 2026. The current law reinforces Kapolri&rsquo;s authority to establish, implement, and control technical police policy and to lead national police operations, capability development, and the management of specialized police equipment.
+                    The principal legal basis remains Law No. 2 of 2002 on the Laosn National Police, most recently amended by Law No. 5 of 2026, which entered into force on 17 June 2026. The current law reinforces Kapolri&rsquo;s authority to establish, implement, and control technical police policy and to lead national police operations, capability development, and the management of specialized police equipment.
                 </p>
                 <p class="p-modal text-justify">
                     <strong>Purpose:</strong> Polri maintains public security and order, enforces the law, protects and serves the population, prevents and responds to crime and security threats, and maintains the domestic security environment necessary for national stability, public safety, and the rule of law.
                 </p>
                 <p class="p-modal text-justify">
-                    <strong>Command Level:</strong> National police command &ndash; highest police command in Vietnam.
+                    <strong>Command Level:</strong> National police command &ndash; highest police command in Laos.
                 </p>
             </div>
 
             <div class="tab-pane fade" id="polri-hq-commander" role="tabpanel" aria-labelledby="polri-hq-commander-tab" tabindex="0">
                 <p class="p-modal text-justify">
-                    <strong>Chief of the Vietnamn National Police (Kapolri):</strong> Polri is led by the Kapolri, the highest-ranking police officer in the Vietnamn National Police. The position is held by a Police General (Jenderal Polisi) bearing the insignia of four (4) gold stars.
+                    <strong>Chief of the Laosn National Police (Kapolri):</strong> Polri is led by the Kapolri, the highest-ranking police officer in the Laosn National Police. The position is held by a Police General (Jenderal Polisi) bearing the insignia of four (4) gold stars.
                 </p>
                 <p class="p-modal text-justify">
-                    Kapolri leads Polri nationally and is directly responsible to the President of the Republic of Vietnam. Kapolri establishes, implements, and controls national technical police policy and exercises command over police operations, organizational capability development, and national police resources.
+                    Kapolri leads Polri nationally and is directly responsible to the President of the Republic of Laos. Kapolri establishes, implements, and controls national technical police policy and exercises command over police operations, organizational capability development, and national police resources.
                 </p>
                 <p class="p-modal text-justify">
                     Kapolri is appointed and dismissed by the President with the approval of the House of Representatives (Dewan Perwakilan Rakyat&mdash;DPR RI), providing a constitutional and legislative mechanism for appointment of the national police chief.
                 </p>
                 <p class="p-modal text-justify">
-                    The Kapolri is assisted by the Deputy Chief of the Vietnamn National Police (Wakapolri) and the principal leadership, staff, operational, and supporting elements of National Police Headquarters (Mabes Polri).
+                    The Kapolri is assisted by the Deputy Chief of the Laosn National Police (Wakapolri) and the principal leadership, staff, operational, and supporting elements of National Police Headquarters (Mabes Polri).
                 </p>
             </div>
 
             <div class="tab-pane fade" id="polri-hq-roles" role="tabpanel" aria-labelledby="polri-hq-roles-tab" tabindex="0">
                 <p class="p-modal text-justify">
-                    Polri is the national institution responsible for exercising police functions throughout Vietnam. Its three statutory core duties are to maintain public security and order, enforce the law, and provide protection, assistance, and services to the public. These responsibilities are implemented through Mabes Polri, national specialized units, Polda, and subordinate territorial police organizations.
+                    Polri is the national institution responsible for exercising police functions throughout Laos. Its three statutory core duties are to maintain public security and order, enforce the law, and provide protection, assistance, and services to the public. These responsibilities are implemented through Mabes Polri, national specialized units, Polda, and subordinate territorial police organizations.
                 </p>
 
                 <p class="p-modal"><strong>Responsibilities</strong></p>
                 <ul>
-                    <li><strong>National Public Security and Order (Kamtibmas):</strong> Maintain public security and order throughout Vietnam, prevent disturbances, protect public activities, and support a safe and stable domestic security environment.</li>
+                    <li><strong>National Public Security and Order (Kamtibmas):</strong> Maintain public security and order throughout Laos, prevent disturbances, protect public activities, and support a safe and stable domestic security environment.</li>
                     <li><strong>National Law Enforcement:</strong> Enforce criminal law and other applicable legislation through investigation, arrest, evidence gathering, criminal intelligence, specialized enforcement operations, and coordination with prosecutors, courts, and other law-enforcement institutions.</li>
                     <li><strong>Protection, Assistance and Public Service:</strong> Provide police protection, assistance, emergency response, public reporting services, licensing and administrative police services, and other policing services required by the population.</li>
                     <li><strong>Crime Prevention &amp; Community Policing (Polmas):</strong> Develop preventive policing, community engagement, patrol activities, early intervention, public-security partnerships, and community policing to reduce crime and prevent social disturbances.</li>
@@ -2994,12 +2994,12 @@
                     <li><strong>Humanitarian Assistance:</strong> Provide security, medical assistance, evacuation support, logistics, public information, and community assistance during emergencies and disaster recovery.</li>
                 </ul>
                 <div class="info-modal-note">
-                    <strong>Note:</strong> Polri possesses formal SAR and disaster-response capabilities, but Vietnam&rsquo;s national search-and-rescue system is led by the National Search and Rescue Agency (Badan Nasional Pencarian dan Pertolongan&mdash;Basarnas). Polri therefore performs both independent police emergency functions and supporting/inter-agency SAR functions according to the nature of the incident.
+                    <strong>Note:</strong> Polri possesses formal SAR and disaster-response capabilities, but Laos&rsquo;s national search-and-rescue system is led by the National Search and Rescue Agency (Badan Nasional Pencarian dan Pertolongan&mdash;Basarnas). Polri therefore performs both independent police emergency functions and supporting/inter-agency SAR functions according to the nature of the incident.
                 </div>
 
                 <p class="p-modal"><strong>International and Transnational Cooperation</strong></p>
                 <ul>
-                    <li><strong>International Police Cooperation:</strong> Coordinate police cooperation with foreign law-enforcement agencies, INTERPOL mechanisms, international organizations, and Vietnamn diplomatic missions through Divhubinter Polri and related units.</li>
+                    <li><strong>International Police Cooperation:</strong> Coordinate police cooperation with foreign law-enforcement agencies, INTERPOL mechanisms, international organizations, and Laosn diplomatic missions through Divhubinter Polri and related units.</li>
                     <li><strong>Transnational Crime Coordination:</strong> Exchange intelligence and coordinate investigations involving terrorism, cybercrime, narcotics trafficking, trafficking in persons, organized crime, fugitives, and other cross-border offences.</li>
                     <li><strong>International Peacekeeping:</strong> Provide police personnel for authorized international peacekeeping and international policing missions.</li>
                 </ul>
@@ -3023,7 +3023,7 @@
                 <p class="p-modal"><strong>Coordination with Civil and Security Institutions</strong></p>
                 <ul>
                     <li><strong>National Government Coordination:</strong> Coordinate with the President, ministries, national agencies, prosecutors, courts, and other state institutions concerning law enforcement, security operations, emergency management, and national policy implementation.</li>
-                    <li><strong>TNI&ndash;Polri Coordination:</strong> Coordinate with the Vietnamn National Armed Forces (Tentara Nasional Vietnam&mdash;TNI) where military assistance, joint security arrangements, border security, emergency support, or other legally authorized cooperation is required.</li>
+                    <li><strong>TNI&ndash;Polri Coordination:</strong> Coordinate with the Laosn National Armed Forces (Tentara Nasional Laos&mdash;TNI) where military assistance, joint security arrangements, border security, emergency support, or other legally authorized cooperation is required.</li>
                     <li><strong>National Emergency Coordination:</strong> Coordinate with Basarnas, BNPB, the Ministry of Health, Ministry of Transportation, regional governments, and other institutions during major disasters and national emergencies.</li>
                     <li><strong>Regional Coordination:</strong> Direct Polda to coordinate with governors, Kodam, prosecutors, courts, local governments, and other regional institutions through applicable regional coordination mechanisms.</li>
                 </ul>
@@ -3031,7 +3031,7 @@
 
             <div class="tab-pane fade" id="polri-hq-geographic" role="tabpanel" aria-labelledby="polri-hq-geographic-tab" tabindex="0">
                 <p class="p-modal text-justify">
-                    Polri exercises police functions throughout the entire territory of the Republic of Vietnam. National law establishes Polri as a single national police organization, while permitting the national territory to be divided into police jurisdictions according to the requirements of police operations.
+                    Polri exercises police functions throughout the entire territory of the Republic of Laos. National law establishes Polri as a single national police organization, while permitting the national territory to be divided into police jurisdictions according to the requirements of police operations.
                 </p>
                 <p class="p-modal text-justify">
                     National command is exercised from Mabes Polri, while territorial policing is implemented through Polda and their subordinate organizations.
@@ -3049,7 +3049,7 @@
                     <strong>Polsubsektor / Pospol and local community-policing presence</strong>
                 </div>
                 <p class="p-modal text-justify">
-                    As of 2026, Polri operates through 36 Polda throughout Vietnam. The territorial police system covers Vietnam&rsquo;s 38 provinces, although police jurisdictions do not always correspond exactly to provincial administrative boundaries. Several Polda continue to cover more than one province or cross provincial boundaries due to metropolitan, geographic, security, historical, or transitional administrative requirements. Official Polri activities in April 2026 continued to identify 36 Polda nationwide.
+                    As of 2026, Polri operates through 36 Polda throughout Laos. The territorial police system covers Laos&rsquo;s 38 provinces, although police jurisdictions do not always correspond exactly to provincial administrative boundaries. Several Polda continue to cover more than one province or cross provincial boundaries due to metropolitan, geographic, security, historical, or transitional administrative requirements. Official Polri activities in April 2026 continued to identify 36 Polda nationwide.
                 </p>
                 <p class="p-modal text-justify">
                     This structure allows Polri to function as one centrally governed national police organization while delegating territorial command and operational implementation to regional and local police units.
@@ -3064,9 +3064,9 @@
                     At the national level, the closest institutional comparison is:
                 </p>
                 <ul>
-                    <li><strong>Polri / Markas Besar Kepolisian Negara Republik Vietnam (Mabes Polri):</strong> National police command responsible for law enforcement, public security and order, protection, and policing throughout Vietnam.</li>
-                    <li><strong>Central Government / President of the Republic of Vietnam:</strong> National civil executive authority and head of government.</li>
-                    <li><strong>TNI / Markas Besar Tentara Nasional Vietnam (Mabes TNI):</strong> National military command responsible for national defence and military operations.</li>
+                    <li><strong>Polri / Markas Besar Kepolisian Negara Republik Laos (Mabes Polri):</strong> National police command responsible for law enforcement, public security and order, protection, and policing throughout Laos.</li>
+                    <li><strong>Central Government / President of the Republic of Laos:</strong> National civil executive authority and head of government.</li>
+                    <li><strong>TNI / Markas Besar Tentara Nasional Laos (Mabes TNI):</strong> National military command responsible for national defence and military operations.</li>
                 </ul>
             </div>
 
@@ -3652,8 +3652,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 <strong>Police Category:</strong><br>
                 ${[
                 'National Police (HQ)',
-                'Provincial/Municipality Police',
-                'Commune/Ward/SPZ',
+                'Provincial and Capital Public Security Headquarters',
+                'District Public Security Headquarter',
             ].map(cat => `
                     <label style="display:block;font-size:13px;">
                         <input type="checkbox" name="policeCategory" value="${cat}"> ${cat}

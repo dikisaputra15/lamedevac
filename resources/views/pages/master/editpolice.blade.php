@@ -22,7 +22,7 @@
 
          <div class="col-md-12">
             <div class="form-group">
-                <label>Edit Province/Municipality</label>
+                <label>Edit Provinsi / Prefektur </label>
                 <select class="form-control" name="province_id" id="province">
                     <?php
                         foreach ($provinces as $prov) {
@@ -126,26 +126,37 @@
                     <label>National Police (HQ)</label>
                 </div>
 
-                <div class="form-check form-check-inline police-option {{ $police->category == 'Provincial/Municipality Police' ? 'selected' : '' }}">
+                <div class="form-check form-check-inline police-option {{ $police->category == 'Provincial and Capital Public Security Headquarters' ? 'selected' : '' }}">
                     <input class="form-check-input category-radio"
                         type="radio"
                         name="category"
-                        value="Provincial/Municipality Police"
+                        value="Provincial and Capital Public Security Headquarters"
                         data-icon="{{ asset('images/Layer2.png') }}"
-                        {{ $police->category == 'Provincial/Municipality Police' ? 'checked' : '' }}>
+                        {{ $police->category == 'Provincial and Capital Public Security Headquarters' ? 'checked' : '' }}>
                     <img src="{{ asset('images/Layer2.png') }}" width="16">
-                    <label>Provincial/Municipality Police</label>
+                    <label>Provincial and Capital Public Security Headquarters</label>
                 </div>
 
-                <div class="form-check form-check-inline police-option {{ $police->category == 'Commune/Ward/SPZ' ? 'selected' : '' }}">
+                <div class="form-check form-check-inline police-option {{ $police->category == 'District Public Security Headquarter' ? 'selected' : '' }}">
                     <input class="form-check-input category-radio"
                         type="radio"
                         name="category"
-                        value="Commune/Ward/SPZ"
+                        value="District Public Security Headquarter"
                         data-icon="{{ asset('images/Layer3.png') }}"
-                        {{ $police->category == 'Commune/Ward/SPZ' ? 'checked' : '' }}>
+                        {{ $police->category == 'District Public Security Headquarter' ? 'checked' : '' }}>
                     <img src="{{ asset('images/Layer3.png') }}" width="16">
-                    <label>Commune/Ward/SPZ</label>
+                    <label>District Public Security Headquarter</label>
+                </div>
+
+                <div class="form-check form-check-inline police-option {{ $police->category == 'Local Police Station' ? 'selected' : '' }}">
+                    <input class="form-check-input category-radio"
+                        type="radio"
+                        name="category"
+                        value="Local Police Station"
+                        data-icon="{{ asset('images/Layer4.png') }}"
+                        {{ $police->category == 'Local Police Station' ? 'checked' : '' }}>
+                    <img src="{{ asset('images/Layer4.png') }}" width="16">
+                    <label>Local Police Station</label>
                 </div>
 
             </div>
