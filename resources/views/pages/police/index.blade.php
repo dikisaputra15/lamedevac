@@ -2734,7 +2734,8 @@ function addPoliceMarkers(data) {
     const categoryIcons = {
         'National Police (HQ)': '/images/Layer1.png',
         'Provincial and Capital Public Security Headquarters': '/images/Layer2.png',
-        'District Public Security Headquarter': '/images/Layer3.png'
+        'District Public Security Headquarter': '/images/Layer3.png',
+        'Local Police Station': '/images/Layer4.png'
     };
 
     data.forEach(police => {
