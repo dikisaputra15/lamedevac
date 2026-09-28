@@ -88,14 +88,17 @@
             <div class="form-group">
                 <label>Edit Facility Level</label>
                 <select class="form-control" name="facility_level">
-                    <option value="Specialized" {{ old('facility_level', $hospital->facility_level ?? '') == 'Specialized' ? 'selected' : '' }}>
-                        Specialized
+                    <option value="Central" {{ old('facility_level', $hospital->facility_level ?? '') == 'Central' ? 'selected' : '' }}>
+                        Central
                     </option>
-                    <option value="Basic" {{ old('facility_level', $hospital->facility_level ?? '') == 'Basic' ? 'selected' : '' }}>
-                        Basic
+                    <option value="Provincial" {{ old('facility_level', $hospital->facility_level ?? '') == 'Provincial' ? 'selected' : '' }}>
+                        Provincial
                     </option>
-                    <option value="Primary" {{ old('facility_level', $hospital->facility_level ?? '') == 'Primary' ? 'selected' : '' }}>
-                        Primary
+                    <option value="District" {{ old('facility_level', $hospital->facility_level ?? '') == 'District' ? 'selected' : '' }}>
+                        District
+                    </option>
+                    <option value="Health Centre" {{ old('facility_level', $hospital->facility_level ?? '') == 'Health Centre' ? 'selected' : '' }}>
+                        Health Centre
                     </option>
                 </select>
             </div>

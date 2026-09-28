@@ -65,14 +65,17 @@
             <div class="form-group">
                 <label>Facility Level</label>
                 <select class="form-control" name="facility_level">
-                    <option value="Specialized">
-                        Specialized
+                    <option value="Central">
+                        Central
                     </option>
-                    <option value="Basic">
-                        Basic
+                    <option value="Provincial">
+                        Provincial
                     </option>
-                    <option value="Primary">
-                        Primary
+                    <option value="District">
+                        District
+                    </option>
+                    <option value="Health Centre">
+                        Health Centre
                     </option>
                 </select>
             </div>
