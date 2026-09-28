@@ -107,6 +107,12 @@
                     <label class="form-check-label">Layer 3</label>
                 </div>
 
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="level" value="Layer 4"
+                        {{ old('Layer 4', $police->level ?? '') == 'Layer 4' ? 'checked' : '' }}>
+                    <label class="form-check-label">Layer 4</label>
+                </div>
+
             </div>
         </div>
 
