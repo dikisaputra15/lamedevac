@@ -484,15 +484,20 @@
                     <small>District Public Security Headquarter</small>
                 </button>
 
+                 <button class="btn p-1" data-bs-toggle="modal" data-bs-target="#level3Modal">
+                    <img src="{{ asset('images/Layer4.png') }}" style="width:12px; height:12px;">
+                    <small>Local Police Station</small>
+                </button>
+
                 <button type="button" class="btn btn-danger d-flex flex-column align-items-center p-3 {{ request()->is('hospital') ? 'active' : '' }}"
                     data-bs-toggle="modal" data-bs-target="#policeAreaLayerModal">
-                <img src="{{ asset('images/icon-structure.png') }}" style="width: 20px; height: 20px;">
+                    <img src="{{ asset('images/icon-structure.png') }}" style="width: 20px; height: 20px;">
                     <small>Police Area Layer</small>
                 </button>
 
                <button type="button" class="btn btn-danger d-flex flex-column align-items-center p-3 {{ request()->is('hospital') ? 'active' : '' }}"
                     data-bs-toggle="modal" data-bs-target="#cmdFlowModal">
-                <img src="{{ asset('images/icon-flow.png') }}" style="width: 20px; height: 20px;">
+                    <img src="{{ asset('images/icon-flow.png') }}" style="width: 20px; height: 20px;">
                     <small>Cmd Flow</small>
                 </button>
 

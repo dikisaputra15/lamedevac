@@ -404,6 +404,13 @@
                         </button>
                     </div>
 
+                    <div class="hospital-classification-item">
+                       <button class="btn p-1" data-bs-toggle="modal" data-bs-target="#level33Modal">
+                            <img src="https://id.concordreview.com/wp-content/plugins/w2gm/resources/images/map_icons/icons/_new/hospital_pin-green.png" style="width:30px; height:30px;">
+                            <small>Health Centre</small>
+                        </button>
+                    </div>
+
                 </div>
             </div>
             </div>

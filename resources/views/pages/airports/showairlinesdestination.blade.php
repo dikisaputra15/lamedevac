@@ -176,7 +176,7 @@
     <!-- Kolom kiri dengan 3 card -->
     <div class="col-md-3">
         <div class="card mb-3">
-            <div class="card-header fw-bold"><img src="{{ asset('AdminLTE/plugins/flag-icon-css/flags/4x3/vn.svg') }}" alt="Bendera Laos" style="width: 30px; height: 30px;"> Domestic</div>
+            <div class="card-header fw-bold"><img src="{{ asset('AdminLTE/plugins/flag-icon-css/flags/4x3/la.svg') }}" alt="Bendera Laos" style="width: 30px; height: 30px;"> Domestic</div>
             <div class="card-body overflow-auto" style="max-height: 300px;">
                 <?php echo $airport->domestic_flights; ?>
             </div>

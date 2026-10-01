@@ -251,8 +251,8 @@
     }
 
     .emergency-legend .legend-police-items {
-        display: flex;
-        flex-wrap: nowrap;
+        display: grid;
+        grid-template-columns: repeat(2, max-content);
         gap: 10px 18px;
     }
 
@@ -726,7 +726,7 @@
                               <div style="display: flex; flex-direction: row; align-items: flex-start; gap: 10px;">
                                   <button class="btn p-1 legend-grid-item" style="width: auto; padding-left: 0 !important;" data-bs-toggle="modal" data-bs-target="#level66Modal">
                                     <img src="https://pg.concordreview.com/wp-content/uploads/2025/01/hospital-pin-red.png" style="width:24px; height:24px;">
-                                    <small>Specialized</small>
+                                    <small>Central</small>
                                   </button>
                               </div>
                             </div>
@@ -737,7 +737,7 @@
                               <div style="display: flex; flex-direction: row; align-items: flex-start; gap: 10px;">
                                   <button class="btn p-1 legend-grid-item" style="width: auto; padding-left: 0 !important;" data-bs-toggle="modal" data-bs-target="#level55Modal">
                                     <img src="https://pg.concordreview.com/wp-content/uploads/2025/01/hospital_pin-blue.png" style="width:24px; height:24px;">
-                                    <small>Basic</small>
+                                    <small>Provincial</small>
                                   </button>
                               </div>
                             </div>
@@ -748,7 +748,11 @@
                               <div style="display: flex; flex-direction: row; align-items: flex-start; gap: 10px;">
                                   <button class="btn p-1 legend-grid-item" style="width: auto; padding-left: 0 !important;" data-bs-toggle="modal" data-bs-target="#level33Modal">
                                     <img src="https://id.concordreview.com/wp-content/plugins/w2gm/resources/images/map_icons/icons/_new/hospital_pin-purple.png" style="width:24px; height:24px;">
-                                    <small>Primary</small>
+                                    <small>District</small>
+                                  </button>
+                                    <button class="btn p-1 legend-grid-item" style="width: auto; padding-left: 0 !important;" data-bs-toggle="modal" data-bs-target="#level11Modal">
+                                      <img src="https://id.concordreview.com/wp-content/plugins/w2gm/resources/images/map_icons/icons/_new/hospital_pin-green.png" style="width:24px; height:24px;">
+                                      <small>Health Centre</small>
                                   </button>
                               </div>
                             </div>
@@ -776,6 +780,12 @@
                                     <button class="btn p-1 text-start w-100" data-bs-toggle="modal" data-bs-target="#police3Modal">
                                          <img src="{{ asset('images/Layer3.png') }}" style="width:12px; height:12px;">
                                         <small>District Public Security Headquarter</small>
+                                    </button>
+                                </div>
+                                <div class="hospital-item">
+                                    <button class="btn p-1" data-bs-toggle="modal" data-bs-target="#level4Modal">
+                                        <img src="{{ asset('images/Layer4.png') }}" style="width:12px; height:12px;">
+                                        <small>Local Police Station</small>
                                     </button>
                                 </div>
                             </div>

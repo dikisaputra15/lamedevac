@@ -203,16 +203,20 @@
     }
 
     .dashboard-classification-bar {
-      display: grid;
-      grid-template-columns: max-content max-content max-content minmax(max-content, 1fr);
+      display: flex;
+      flex-wrap: wrap;
       align-items: flex-start;
-      gap: 16px;
-      padding: 16px;
-      overflow-x: auto;
+      gap: 20px 28px;
+      padding: 16px 20px;
       background: #dfeaf1;
     }
     .dashboard-classifications {
-      display: contents;
+      display: flex;
+      flex: 1 1 auto;
+      flex-wrap: wrap;
+      align-items: flex-start;
+      gap: 20px 28px;
+      min-width: 0;
     }
     .dashboard-classification-group {
       max-width: 100%;
@@ -234,14 +238,14 @@
       display: inline-flex;
       align-items: center;
       justify-content: flex-start;
-      gap: 4px;
+      gap: 6px;
       min-height: 30px;
       padding: 3px 0 !important;
       white-space: nowrap;
       text-align: left;
     }
     .dashboard-classifications .btn small {
-      font-size: 11px;
+      font-size: 12px;
       line-height: 18px;
     }
     .dashboard-classifications .btn img {
@@ -254,7 +258,7 @@
       gap: 0;
     }
     .dashboard-medical-levels .class-column:not(:last-child) > div {
-      padding-right: 8px;
+      padding-right: 16px;
     }
     .dashboard-medical-levels .class-header {
       margin-bottom: 4px;
@@ -264,19 +268,8 @@
       line-height: 20px;
     }
     .dashboard-classification-actions {
-      grid-column: 4;
-      grid-row: 1;
-      justify-self: end;
-      align-self: center;
-    }
-    .dashboard-classification-actions .btn {
-      min-width: 56px;
-      padding: 8px !important;
-      margin: 0;
-    }
-    .dashboard-classification-actions .gap-2 {
-      gap: 6px;
-      flex-wrap: nowrap;
+      flex: 0 0 auto;
+      margin-left: auto;
     }
 
     /* Color bars */
@@ -691,6 +684,103 @@
     }
 }
 
+    .dashboard-classification-bar { background: #fff; }
+    .dashboard-map-layout { display: grid; grid-template-columns: 240px minmax(0, 1fr); gap: 12px; align-items: start; }
+    .dashboard-map-layout #map { width: 100%; min-width: 0; }
+    .dashboard-legend-sidebar.dashboard-classifications { display: flex; flex-direction: column; gap: 8px; padding: 8px; background: #fff; }
+    .dashboard-legend-panel { width: 100%; border: 1px solid #d6dee8; border-radius: 9px; background: #fff; color: #19334e; overflow: hidden; }
+    .dashboard-legend-panel summary,
+    .dashboard-legend-disclaimer { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 13px; font-size: 13px; font-weight: 700; cursor: pointer; list-style: none; }
+    .dashboard-legend-disclaimer { min-height: 50px; text-align: left; font-family: inherit; }
+    .dashboard-legend-panel summary::-webkit-details-marker { display: none; }
+    .dashboard-legend-panel summary:hover,
+    .dashboard-legend-disclaimer:hover { background: #f5f8fb; }
+    .dashboard-legend-panel summary:focus-visible,
+    .dashboard-legend-disclaimer:focus-visible { outline: 2px solid #346abb; outline-offset: -3px; }
+    .legend-toggle { display: grid; place-items: center; width: 22px; height: 22px; border: 1px solid #bbc7d5; border-radius: 50%; flex-shrink: 0; }
+    .legend-toggle::before { content: '+'; font-size: 17px; font-weight: 400; }
+    .dashboard-legend-panel[open] .legend-toggle::before { content: '\00d7'; }
+    .dashboard-legend-panel[open] summary { border-bottom: 1px solid #d6dee8; }
+    .dashboard-legend-panel .dashboard-classification-group { padding: 12px; overflow: visible; }
+    .dashboard-legend-panel .class-header { font-size: 12px; text-align: left; }
+    .dashboard-legend-panel .airport-list > div { display: grid !important; grid-template-columns: minmax(0, 1fr) !important; gap: 4px !important; }
+    .dashboard-legend-panel .airport-list > div > div:empty { display: none; }
+    .dashboard-legend-panel .dashboard-medical-levels { grid-template-columns: minmax(0, 1fr); gap: 12px; }
+    .dashboard-legend-panel .dashboard-medical-levels .class-column > div { padding-right: 0; }
+    .dashboard-legend-panel .dashboard-medical-levels .class-column > div:not(.class-header) { flex-direction: column !important; gap: 4px !important; }
+    .dashboard-legend-panel .btn { white-space: normal; width: 100%; }
+    .dashboard-legend-panel .btn small { text-align: left; }
+    .dashboard-map-layout #routePanel { left: 262px !important; }
+    @media (max-width: 767px) {
+        .dashboard-map-layout { grid-template-columns: minmax(0, 1fr); }
+        .dashboard-map-layout #routePanel { left: 10px !important; }
+    }
+    .dashboard-map-layout {
+        position: relative;
+        display: grid;
+        grid-template-columns: minmax(0, 1fr);
+        gap: 0;
+        align-items: start;
+    }
+    .dashboard-content-column {
+        display: none;
+        background: #fff;
+    }
+    .dashboard-map-layout #map .gm-style-mtc {
+        margin-top: 60px !important;
+    }
+    .dashboard-map-layout.is-content-open {
+        grid-template-columns: 240px minmax(0, 1fr);
+        gap: 12px;
+    }
+    .dashboard-map-layout.is-content-open .dashboard-content-column {
+        display: block;
+        width: 240px;
+    }
+    .dashboard-map-stage { position: relative; min-width: 0; }
+    .dashboard-content-toggle {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        z-index: 1000;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 8px;
+        width: 115px;
+        min-height: 40px;
+        padding: 9px 12px;
+        border: 1px solid #bbc7d5;
+        border-radius: 7px;
+        background: #fff;
+        color: #19334e;
+        font-size: 12px;
+        font-weight: 700;
+        cursor: pointer;
+    }
+    .dashboard-content-toggle:hover { background: #f5f8fb; }
+    .dashboard-content-toggle[aria-expanded="true"] {
+        width: 30px;
+        min-height: 34px;
+        padding: 6px;
+        justify-content: center;
+        margin-left: auto;
+        font-size: 20px;
+    }
+    .dashboard-content-toggle[aria-expanded="true"] .content-info-label { display: none; }
+    .dashboard-content-toggle:focus-visible { outline: 2px solid #346abb; }
+    .dashboard-map-layout .dashboard-legend-sidebar {
+        width: 100%;
+        margin-top: 0;
+        padding: 0;
+    }
+    .dashboard-map-layout .dashboard-legend-sidebar[hidden] { display: none; }
+    .dashboard-map-layout #routePanel { left: 10px !important; }
+    @media (max-width: 767px) {
+        .dashboard-map-layout,
+        .dashboard-map-layout.is-content-open { grid-template-columns: minmax(0, 1fr); }
+        .dashboard-map-layout.is-content-open .dashboard-content-column { width: 100%; }
+    }
 </style>
 
 @endpush
@@ -699,10 +789,39 @@
 
 <div class="card">
     <div class="dashboard-classification-bar">
-        <div class="dashboard-classifications">
+        <div class="dashboard-classification-actions">
+            <div class="d-flex justify-content-end">
+                <div class="d-flex gap-2">
 
-               <!-- Airport -->
-                      <div class="dashboard-classification-group">
+                    <a href="{{ url('airports') }}" class="btn btn-danger d-flex flex-column align-items-center p-3 {{ request()->is('airports') ? 'active' : '' }}">
+                        <i class="bi bi-airplane fs-3"></i>
+                        <small>Aviation</small>
+                    </a>
+
+                    <a href="{{ url('hospital') }}" class="btn btn-danger d-flex flex-column align-items-center p-3 {{ request()->is('hospital') ? 'active' : '' }}">
+                    <img src="{{ asset('images/icon-medical.png') }}" style="width: 24px; height: 24px;">
+                        <small>Medical</small>
+                    </a>
+
+                    <a href="{{ url('police') }}" class="btn btn-danger d-flex flex-column align-items-center p-3 {{ request()->is('police') ? 'active' : '' }}">
+                    <i class="bi bi-person-badge" style="width: 24px; height: 24px;"></i>
+                        <small>Police</small>
+                    </a>
+
+                    <a href="{{ url('embassiees') }}" class="btn btn-danger d-flex flex-column align-items-center p-3 {{ request()->is('embassiees') ? 'active' : '' }}">
+                    <img src="{{ asset('images/icon-embassy.png') }}" style="width: 24px; height: 24px;">
+                        <small>Embassies</small>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+</div>
+
+<div class="dashboard-map-layout"><div class="dashboard-content-column"><aside id="dashboardContentInfo" class="dashboard-legend-sidebar dashboard-classifications" aria-label="Map classifications" hidden><details class="dashboard-legend-panel"><summary>Aviation<span class="legend-toggle" aria-hidden="true"></span></summary><div class="dashboard-classification-group">
                         <div class="class-header class-airport-category">AIRFIELD CLASSIFICATION</div>
                         <div class="airport-list">
                           <div style="display: grid; grid-template-columns: max-content max-content max-content max-content; column-gap: 15px; row-gap: 5px;">
@@ -755,10 +874,7 @@
                           </div>
 
                         </div>
-                      </div>
-
-                       <!-- Medical Facility Legend -->
-                      <div class="dashboard-classification-group">
+                      </div></details><details class="dashboard-legend-panel"><summary>Medical Facilities<span class="legend-toggle" aria-hidden="true"></span></summary><div class="dashboard-classification-group">
                         <!-- Title -->
                         <div>
                             <div class="class-header class-medical-classification" style="text-align:left;">Medical Facility Classification</div>
@@ -770,7 +886,7 @@
                               <div style="display: flex; flex-direction: row; align-items: flex-start; gap: 10px;">
                                   <button class="btn p-1 legend-grid-item" style="width: auto; padding-left: 0 !important;" data-bs-toggle="modal" data-bs-target="#level66Modal">
                                     <img src="https://pg.concordreview.com/wp-content/uploads/2025/01/hospital-pin-red.png" style="width:24px; height:24px;">
-                                    <small>High Technical Specialized</small>
+                                    <small>Central</small>
                                   </button>
                               </div>
                             </div>
@@ -781,7 +897,7 @@
                               <div style="display: flex; flex-direction: row; align-items: flex-start; gap: 10px;">
                                   <button class="btn p-1 legend-grid-item" style="width: auto; padding-left: 0 !important;" data-bs-toggle="modal" data-bs-target="#level55Modal">
                                     <img src="https://pg.concordreview.com/wp-content/uploads/2025/01/hospital_pin-blue.png" style="width:24px; height:24px;">
-                                    <small>Specialized </small>
+                                    <small>Provincial </small>
                                   </button>
                               </div>
                             </div>
@@ -792,18 +908,16 @@
                               <div style="display: flex; flex-direction: row; align-items: flex-start; gap: 10px;">
                                   <button class="btn p-1 legend-grid-item" style="width: auto; padding-left: 0 !important;" data-bs-toggle="modal" data-bs-target="#level33Modal">
                                     <img src="https://id.concordreview.com/wp-content/plugins/w2gm/resources/images/map_icons/icons/_new/hospital_pin-purple.png" style="width:24px; height:24px;">
-                                    <small>Basic</small>
+                                    <small>District</small>
                                   </button>
                                   <button class="btn p-1 legend-grid-item" style="width: auto; padding-left: 0 !important;" data-bs-toggle="modal" data-bs-target="#level11Modal">
                                       <img src="https://id.concordreview.com/wp-content/plugins/w2gm/resources/images/map_icons/icons/_new/hospital_pin-green.png" style="width:24px; height:24px;">
-                                      <small>Initial (no inpatient)</small>
+                                      <small>Health Centre</small>
                                   </button>
                               </div>
                             </div>
                         </div>
-                      </div>
-
-                        <div class="dashboard-classification-group">
+                      </div></details><details class="dashboard-legend-panel"><summary>Police<span class="legend-toggle" aria-hidden="true"></span></summary><div class="dashboard-classification-group">
                         <div class="class-header class-airport-category">POLICE CLASSIFICATION</div>
 
                         <div class="airport-list">
@@ -826,52 +940,20 @@
                                         <small>District Public Security Headquarter</small>
                                     </button>
                                 </div>
+                                 <div class="hospital-item">
+                                    <button class="btn p-1 text-start w-100" data-bs-toggle="modal" data-bs-target="#police4Modal">
+                                         <img src="{{ asset('images/Layer4.png') }}" style="width:12px; height:12px;">
+                                        <small>Local Police Station</small>
+                                    </button>
+                                </div>
                             </div>
                         </div>
 
-                    </div>
-
-        </div>
-        <div class="dashboard-classification-actions">
-            <div class="d-flex justify-content-end">
-                <div class="d-flex gap-2">
-
-                    <a href="{{ url('airports') }}" class="btn btn-danger d-flex flex-column align-items-center p-3 {{ request()->is('airports') ? 'active' : '' }}">
-                        <i class="bi bi-airplane fs-3"></i>
-                        <small>Aviation</small>
-                    </a>
-
-                    <a href="{{ url('hospital') }}" class="btn btn-danger d-flex flex-column align-items-center p-3 {{ request()->is('hospital') ? 'active' : '' }}">
-                    <img src="{{ asset('images/icon-medical.png') }}" style="width: 24px; height: 24px;">
-                        <small>Medical</small>
-                    </a>
-
-                    <a href="{{ url('police') }}" class="btn btn-danger d-flex flex-column align-items-center p-3 {{ request()->is('police') ? 'active' : '' }}">
-                    <i class="bi bi-person-badge" style="width: 24px; height: 24px;"></i>
-                        <small>Police</small>
-                    </a>
-
-                    <a href="{{ url('embassiees') }}" class="btn btn-danger d-flex flex-column align-items-center p-3 {{ request()->is('embassiees') ? 'active' : '' }}">
-                    <img src="{{ asset('images/icon-embassy.png') }}" style="width: 24px; height: 24px;">
-                        <small>Embassies</small>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="col-md-12">
-        <button class="btn btn-link p-0 fw-bold text-decoration-underline text-dark" data-bs-toggle="modal" data-bs-target="#disclaimerModal">
-            <i class="bi bi-info-circle text-primary fs-5"></i>
-            <small>Disclaimer</small>
+                    </div></details>
+<button type="button" class="dashboard-legend-panel dashboard-legend-disclaimer" data-bs-toggle="modal" data-bs-target="#disclaimerModal">
+            Disclaimer
         </button>
-    </div>
-
-</div>
-
-<div style="position:relative;">
-
-<div id="map"></div>
+</aside></div><div class="dashboard-map-stage"><button type="button" class="dashboard-content-toggle" aria-expanded="false" aria-controls="dashboardContentInfo" aria-label="Open Content Info"><span class="content-info-label">Content Info</span><span aria-hidden="true">&#8250;</span></button><div id="map"></div>
 
 <!-- Route Detail Panel -->
 <div id="routePanel" style="
@@ -911,6 +993,8 @@
     </div>
     <!-- Steps -->
     <div id="routeSteps" style="overflow-y:auto;flex:1;padding:8px 0;"></div>
+</div>
+
 </div>
 
 </div>
@@ -3274,6 +3358,29 @@ document.addEventListener('DOMContentLoaded', function () {
 @endsection
 
 @push('service')
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const toggle = document.querySelector('.dashboard-content-toggle');
+        const panel = document.getElementById('dashboardContentInfo');
+        if (!toggle || !panel) return;
+        function setContentInfoOpen(open) {
+            panel.hidden = !open;
+            toggle.closest('.dashboard-map-layout').classList.toggle('is-content-open', open);
+            toggle.setAttribute('aria-expanded', String(open));
+            toggle.setAttribute('aria-label', open ? 'Close Content Info' : 'Open Content Info');
+            toggle.querySelector('[aria-hidden]').textContent = open ? '\u2039' : '\u203a';
+        }
+        toggle.addEventListener('click', function () {
+            setContentInfoOpen(toggle.getAttribute('aria-expanded') !== 'true');
+        });
+        panel.addEventListener('keydown', function (event) {
+            if (event.key === 'Escape') {
+                setContentInfoOpen(false);
+                toggle.focus();
+            }
+        });
+    });
+</script>
 
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCd-WVlGgZFJwAtPZkbAEca2Np6OI7CBTM&libraries=places,geometry,drawing"></script>
 
@@ -4083,7 +4190,7 @@ document.addEventListener('change', function(e) {
                     <h5 style="border-bottom:1px solid #cccccc;"><a href="${detailUrl}" style="color:inherit;text-decoration:none;transition:color 0.2s;" onmouseover="this.style.color='#1a73e8'" onmouseout="this.style.color='inherit'">${itemName}</a></h5>
                     <strong>Category:</strong> ${item.category || 'N/A'}<br>
                     <strong>Address:</strong>
-                        ${item.address || 'N/A'}
+                        ${item.location || 'N/A'}
                         ${item.city ? ', ' + item.city : ''}
                         ${item.provinces_region ? ', ' + item.provinces_region : ''}, Laos <br>
                     <strong>Phone:</strong> ${item.telephone || 'N/A'}<br>
@@ -4098,7 +4205,7 @@ document.addEventListener('change', function(e) {
                 popupContent = `
                     <h5 style="border-bottom:1px solid #cccccc;"><a href="${detailUrl}" style="color:inherit;text-decoration:none;transition:color 0.2s;" onmouseover="this.style.color='#1a73e8'" onmouseout="this.style.color='inherit'">${itemName}</a></h5>
                     <strong>Address:</strong>
-                        ${item.address || 'N/A'}
+                        ${item.location || 'N/A'}
                         ${item.city ? ', ' + item.city : ''}
                         ${item.provinces_region ? ', ' + item.provinces_region : ''}, Laos <br>
                     <strong>Phone:</strong> ${item.telephone || 'N/A'}<br>
