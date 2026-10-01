@@ -4163,7 +4163,7 @@ document.addEventListener('change', function(e) {
                 itemName = item.airport_name;
                 detailUrl = `/airports/${item.id}/detail`;
                 popupContent = `
-                    <h5 style="border-bottom:1px solid #cccccc;"><a href="${detailUrl}" style="color:inherit;text-decoration:none;transition:color 0.2s;" onmouseover="this.style.color='#1a73e8'" onmouseout="this.style.color='inherit'">${itemName}</a></h5>
+                    <h5 style="border-bottom:1px solid #cccccc;"><a href="${detailUrl}" target="_blank" style="color:inherit;text-decoration:none;transition:color 0.2s;" onmouseover="this.style.color='#1a73e8'" onmouseout="this.style.color='inherit'">${itemName}</a></h5>
                     <strong>Classification:</strong> ${item.category || 'N/A'}<br>
                     <strong>Address:</strong>
                         ${item.address || 'N/A'}
@@ -4175,7 +4175,7 @@ document.addEventListener('change', function(e) {
                 itemName = item.name;
                 detailUrl = `/hospitals/${item.id}`;
                 popupContent = `
-                    <h5 style="border-bottom:1px solid #cccccc;"><a href="${detailUrl}" style="color:inherit;text-decoration:none;transition:color 0.2s;" onmouseover="this.style.color='#1a73e8'" onmouseout="this.style.color='inherit'">${itemName}</a></h5>
+                    <h5 style="border-bottom:1px solid #cccccc;"><a href="${detailUrl}" target="_blank" style="color:inherit;text-decoration:none;transition:color 0.2s;" onmouseover="this.style.color='#1a73e8'" onmouseout="this.style.color='inherit'">${itemName}</a></h5>
                     <strong>Global Classification:</strong> ${item.facility_category || 'N/A'}<br>
                     <strong>Country Classification:</strong> ${item.facility_level || 'N/A'}<br>
                     <strong>Address:</strong>
@@ -4187,7 +4187,7 @@ document.addEventListener('change', function(e) {
                 itemName = item.name_police;
                 detailUrl = `/police/${item.id}/detail`;
                 popupContent = `
-                    <h5 style="border-bottom:1px solid #cccccc;"><a href="${detailUrl}" style="color:inherit;text-decoration:none;transition:color 0.2s;" onmouseover="this.style.color='#1a73e8'" onmouseout="this.style.color='inherit'">${itemName}</a></h5>
+                    <h5 style="border-bottom:1px solid #cccccc;"><a href="${detailUrl}" target="_blank" style="color:inherit;text-decoration:none;transition:color 0.2s;" onmouseover="this.style.color='#1a73e8'" onmouseout="this.style.color='inherit'">${itemName}</a></h5>
                     <strong>Category:</strong> ${item.category || 'N/A'}<br>
                     <strong>Address:</strong>
                         ${item.location || 'N/A'}
@@ -4203,7 +4203,7 @@ document.addEventListener('change', function(e) {
                 itemName = item.name_embassiees;
                 detailUrl = `/embassiees/${item.id}/detail`;
                 popupContent = `
-                    <h5 style="border-bottom:1px solid #cccccc;"><a href="${detailUrl}" style="color:inherit;text-decoration:none;transition:color 0.2s;" onmouseover="this.style.color='#1a73e8'" onmouseout="this.style.color='inherit'">${itemName}</a></h5>
+                    <h5 style="border-bottom:1px solid #cccccc;"><a href="${detailUrl}" target="_blank" style="color:inherit;text-decoration:none;transition:color 0.2s;" onmouseover="this.style.color='#1a73e8'" onmouseout="this.style.color='inherit'">${itemName}</a></h5>
                     <strong>Address:</strong>
                         ${item.location || 'N/A'}
                         ${item.city ? ', ' + item.city : ''}
@@ -4237,7 +4237,7 @@ document.addEventListener('change', function(e) {
                                 </svg>
                                 Get Directions
                             </button>
-                            <a href="${detailUrl}"
+                            <a href="${detailUrl}" target="_blank"
                                style="display:inline-flex;align-items:center;gap:5px;
                                       background:#395272;color:#fff;text-decoration:none;
                                       padding:5px 12px;border-radius:6px;font-size:12px;
@@ -4253,7 +4253,7 @@ document.addEventListener('change', function(e) {
                 } else if (detailUrl) {
                     directionsBtn = `
                         <div style="margin-top:8px;padding-top:8px;border-top:1px solid #eee;">
-                            <a href="${detailUrl}"
+                            <a href="${detailUrl}" target="_blank"
                                style="display:inline-flex;align-items:center;gap:5px;
                                       background:#395272;color:#fff;text-decoration:none;
                                       padding:5px 12px;border-radius:6px;font-size:12px;
